@@ -1,0 +1,39 @@
+* {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+}
+
+body {
+  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #444;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("../font/NEXON Lv1 Gothic OTF Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: Bold;
+}
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("../font/NEXON Lv1 Gothic OTF Light.woff.woff") format("woff");
+  font-weight: normal;
+  font-style: Light;
+}
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("../font/NEXON Lv1 Gothic OTF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.nexon {
+  font-family: "NEXON Lv1 Gothic OTF";
+}/*# sourceMappingURL=style.css.map */
