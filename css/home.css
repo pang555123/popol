@@ -1,1 +1,16 @@
-/*# sourceMappingURL=home.css.map */
+.home-section {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.home-section figure.bg img {
+  position: absolute;
+}
+.home-section figure.bg .bg {
+  top: 0;
+  left: 0;
+  mix-blend-mode: overlay;
+}
+.home-section figure.bg .moon {
+  display: none;
+}/*# sourceMappingURL=home.css.map */

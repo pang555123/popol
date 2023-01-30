@@ -1,0 +1,17 @@
+.home-section{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  figure.bg{
+    img{
+      position: absolute;
+    }
+    .bg{
+      top: 0; left: 0 ;
+      mix-blend-mode: overlay;
+    }
+    .moon{
+      display: none;
+    }
+  }
+}

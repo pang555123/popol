@@ -9,10 +9,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <!-- css -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/reset.css">
   <!-- icon -->
   <script src="https://kit.fontawesome.com/840ac6e70a.js" crossorigin="anonymous"></script>
   <!-- jquery -->
@@ -20,16 +16,21 @@
   <!-- script -->
   <script src="./js/common.js"></script>
 
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/header.css">
 
   <title>sojin portfolio</title>
 </head>
 
 <body>
   <header>
-    <h1>PORTFOLIO</h1>
-
+    <h1>
+      PORTFOLIO
+    </h1>
     <ul class="menu">
-
       <li class="intro">
         <a href="#">INTRO</a>
       </li><!-- intro -->
@@ -38,16 +39,12 @@
         <a href="#">ABOUT</p>
       </li><!-- about -->
 
-      <li class="project">
-        <a href="#">project1</a>
-        <a href="#">project2</a>
-        <a href="#">project3</a>
-        <a href="#">project4</a>
-        <a href="#">project5</a>
+      <li class="work">
+        <a href="#">WORK</a>
       </li><!-- project -->
 
       <li class="contact">
-        <a href="#">contact</a>
+        <a href="#">CONTACT</a>
       </li><!-- contact -->
     </ul><!-- menu -->
   </header>

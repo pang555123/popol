@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./css/about.css">
 <section class="about">
   <div class="about-profile">
     <div class="contents-left-wrap">
