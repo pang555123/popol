@@ -27,27 +27,33 @@
 </head>
 
 <body>
+  <script src="./js/header.js"></script>
   <header>
-    <h1>
-      <p class="hidden">PORTFOLIO</p>
-    </h1>
-    <nav>
-      <ul class="menu">
-        <li class="intro">
-          <a href="#">INTRO</a>
-        </li><!-- intro -->
+    <div class="inner">
+      <h1>
+        <a href="./index.php">
+          <p class="hidden">PORTFOLIO</p>
+          <img src="./img/header/logo.png" alt="">
+        </a>
+      </h1>
+      <nav>
+        <ul class="menu">
+          <li class="intro">
+            <a href="#">INTRO</a>
+          </li><!-- intro -->
 
-        <li class="about">
-          <a href="#">ABOUT</p>
-        </li><!-- about -->
+          <li class="about">
+            <a href="#">ABOUT</p>
+          </li><!-- about -->
 
-        <li class="work">
-          <a href="#">WORK</a>
-        </li><!-- project -->
+          <li class="work">
+            <a href="#">WORK</a>
+          </li><!-- project -->
 
-        <li class="contact">
-          <a href="#">CONTACT</a>
-        </li><!-- contact -->
-      </ul><!-- menu -->
-    </nav>
+          <li class="contact">
+            <a href="#">CONTACT</a>
+          </li><!-- contact --> 
+        </ul><!-- menu -->
+      </nav>
+    </div>
   </header>

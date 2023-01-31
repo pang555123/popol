@@ -1,26 +1,36 @@
 header{
   position: absolute;
+  z-index: 100;
   top: 0;
-  display: flex;
   width: 100%;
   height: 70px;
   border-bottom: 1px solid #fff;
   &.active {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.05);
     top: 0px;
   } //active
-  h1{
-
-  }
-  ul.menu{
+  .inner{
     display: flex;
-    li{
-
-      a{
-
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    nav{
+      ul{
+        display: flex;
+        li{
+          padding:0 20px;
+          color: #fff;
+          font-size: 1.1em;
+          @media screen and(max-width:1000px){
+            padding:0 5px;
+            font-size: 0.9em;
+          }
+        }
       }
     }
   }
-  
-}
+
+}//header
