@@ -28,23 +28,25 @@
 <body>
   <header>
     <h1>
-      PORTFOLIO
+      <p class="hidden">PORTFOLIO</p>
     </h1>
-    <ul class="menu">
-      <li class="intro">
-        <a href="#">INTRO</a>
-      </li><!-- intro -->
+    <nav>
+      <ul class="menu">
+        <li class="intro">
+          <a href="#">INTRO</a>
+        </li><!-- intro -->
 
-      <li class="about">
-        <a href="#">ABOUT</p>
-      </li><!-- about -->
+        <li class="about">
+          <a href="#">ABOUT</p>
+        </li><!-- about -->
 
-      <li class="work">
-        <a href="#">WORK</a>
-      </li><!-- project -->
+        <li class="work">
+          <a href="#">WORK</a>
+        </li><!-- project -->
 
-      <li class="contact">
-        <a href="#">CONTACT</a>
-      </li><!-- contact -->
-    </ul><!-- menu -->
+        <li class="contact">
+          <a href="#">CONTACT</a>
+        </li><!-- contact -->
+      </ul><!-- menu -->
+    </nav>
   </header>
