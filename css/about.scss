@@ -1,0 +1,50 @@
+.about{
+  width: 100;
+  height: 100%;
+  .about-profile{
+    width: 90%;
+    max-width: 1200px;
+    .contents-left-wrap{//오른쪽
+      figure{
+        img{
+
+        }//img
+      }//figure
+      ul.profile-info{
+        li{
+          p{
+            i{
+
+            }//i
+          }//p
+        }//li
+      }//ul
+      ul.edu{
+        li{
+          em{
+
+          }//em
+          p{
+
+          }//p
+        }//li
+      }//ul.edu
+    }//contents-left-wrap
+    .contents-right-wrap{//왼쪽
+      h2.name{
+        p{
+
+        }
+        small{
+
+        }
+      }//name
+      .introduce{
+        p{
+
+        }
+      }
+    }//contents-right-wrap
+    
+  }//about-profile
+}//about
