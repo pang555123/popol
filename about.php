@@ -1,44 +1,36 @@
 <link rel="stylesheet" href="./css/about.css">
-<section class="about">
+<section class="about-section section">
   <div class="about-profile">
     <div class="contents-left-wrap">
       <figure>
-        <img src="" alt="프로필사진">
+        <img src="./img/about/iu.jfif" alt="프로필사진">
       </figure>
 
       <ul class="profile-info">
         <li>
-          <p>
             <i class="fa-solid fa-calendar-days"></i>
             1998.02.23
-          </p>
         </li>
         <li>
-          <p>
             <i class="fa-solid fa-mobile-screen-button"></i>
             010-6313-9930
-          </p>
         </li>
         <li>
-          <p>
             <i class="fa-regular fa-envelope"></i>
             thwis9930@gmail.com
-          </p>
         </li>
       </ul><!-- info-all -->
-
+      
       <ul class="edu">
+        <p>교육사항</p>
         <li>
-          <em>2022-10-17 - 2023-01-19</em>
-          <p>프로젝트기반 웹퍼블리셔(웹디자인)과정</p>
+          2022-10-17 - 2023-01-19 : 프로젝트기반 웹퍼블리셔(웹디자인)과정
         </li>
         <li>
-          <em>2021-12-08 - 2022-01-12</em>
-          <p>프로그래밍 첫걸음 시작하기[초급]</p>
+          2021-12-08 - 2022-01-12 : 프로그래밍 첫걸음 시작하기[초급]
         </li>
         <li>
-          <em>2020-07-20 ~ 2020-09-22</em>
-          <p>디자인툴로 상세페이지 및 쇼핑몰제작</p>
+          2020-07-20 - 2020-09-22 : 디자인툴로 상세페이지 및 쇼핑몰제작
         </li>
       </ul><!-- edu -->
 
@@ -59,12 +51,12 @@
           흥미로운 경험을 제공하고 싶습니다.
         </p>
         <p>
-          개발은 혼자 하는 일이 아닌 만큼 사람들 간의 약속, 그리고 소통이 중요하다고 생각합니다
-          항상 협업과 유지보수에 좋은 코드를 짜기 위해 꾸준히 공부하고 있습니다.
+          개발은 혼자 하는 일이 아닌 만큼 사람들 간의 약속, 그리고 소통이 중요하다고 생각합니다. <br>
+          항상 협업과 유지보수에 좋은 코드를 짜기 위해 꾸준히 공부하고 있습니다.<br>
           유연한 소통을 할 수 있도록, 항상 경청하고 열린 자세로 임하며 성장해 나가겠습니다.</p>
         <p>
-          경험을 토대로 더 많은 것을 배우고,
-          배운것을 토대로 어떤 변화에도 적극적으로 임하고,
+          경험을 토대로 더 많은 것을 배우고,<br>
+          배운것을 토대로 어떤 변화에도 적극적으로 임하고,<br>
           웹을 트렌디하게 표현해내는 퍼블리셔가 되겠습니다.
         </p>
       </div><!-- profile-info -->

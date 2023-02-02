@@ -1,10 +1,8 @@
 body{
-  
-  background: linear-gradient(15deg, rgba(181,164,234,1) 19%, rgba(231,203,237,1) 52%, rgba(201,207,242,1) 89%);
-  main{
-    section{
-      width: 100%;
-      height: 100%;
-    }
+  section{
+    width: 100%;
+    padding-top: 70px;
+    box-sizing: border-box;
+    background-color: #b5a4ea;
   }
 }

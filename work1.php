@@ -1,8 +1,8 @@
-<section class="section-work1">
+<section class="work1-section">
   <div class="work1">
     <div class="work-info">
       <div class="mockup">
-
+      
 
       </div><!-- mockup -->
       <div class="mockup-desc">

@@ -1,47 +1,113 @@
-.about{
-  width: 100;
-  height: 100%;
+.about-section{
+  width: 100%;
+  color: #fff;
   .about-profile{
     width: 90%;
     max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width:1000px){
+      display: block;
+    }
     .contents-left-wrap{//오른쪽
+      width: 50%;
+      margin-top: 100px;
+      @media screen and (max-width:1000px){
+        width: 100%;
+      }
       figure{
+        margin: 0 auto  ;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        overflow: hidden;
         img{
-
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
         }//img
       }//figure
       ul.profile-info{
+        padding: 30px 0;
+        width: 200px;
+        margin: 0 auto;
         li{
-          p{
-            i{
-
-            }//i
-          }//p
+          white-space: nowrap;
+          padding: 5px 0;
+          font-size: 1.2em;
+          font-weight: 400;
+          i{
+            width: 20px;
+          }//i
         }//li
       }//ul
       ul.edu{
+        width: 500px;
+        margin: 20px auto;
+        text-align: center;
+        padding-bottom: 50px;
+        >p{
+          font-size: 3em;
+          padding-bottom: 20px;
+        }
         li{
-          em{
-
-          }//em
-          p{
-
-          }//p
+          text-align: left;
+          padding-left: 20px;
+          padding-bottom: 5px;
         }//li
       }//ul.edu
     }//contents-left-wrap
     .contents-right-wrap{//왼쪽
+      width: 50%;
+      padding-left: 100px;
+      box-sizing: border-box;
+      @media screen and (max-width:1000px){
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0px;
+        text-align: center;
+      }
       h2.name{
+        margin-bottom: 50px;
         p{
-
+          font-size: 5em;
+          font-weight: 800;
+          line-height: 60px;
         }
         small{
+          padding-left: 5px;
 
         }
       }//name
       .introduce{
         p{
-
+          font-weight: 300;
+        }
+        p:nth-child(1){
+          font-weight: 400;
+          font-size: 2em;
+          margin-bottom: 50px;
+        }
+        p:nth-child(2){
+          font-size: 1.2em;
+          max-width: 300px;
+          margin-bottom: 30px;
+          @media screen and (max-width:1000px){
+            margin: 0 auto;
+            margin-bottom: 30px;
+          }
+        }
+        p:nth-child(3){
+          font-size: 1.2em;
+          margin-bottom: 30px;
+        }
+        p:nth-child(4){
+          font-size: 1.5em;
+          font-weight: 100;
         }
       }
     }//contents-right-wrap
