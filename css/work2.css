@@ -1,4 +1,4 @@
-.work1-section {
+.work2-section {
   position: relative;
   display: table;
   table-layout: fixed;
@@ -9,13 +9,13 @@
   box-sizing: border-box;
   border: 1px solid red;
 }
-.work1-section .work1 {
+.work2-section .work2 {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   width: 100%;
 }
-.work1-section .work1 .work-contents {
+.work2-section .work2 .work-contents {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,16 +26,16 @@
   gap: 60px;
   box-sizing: border-box;
 }
-.work1-section .work1 .work-contents .mockup-all {
+.work2-section .work2 .work-contents .mockup-all {
   display: flex;
   position: relative;
   width: 600px;
   margin-right: 60px;
 }
-.work1-section .work1 .work-contents .mockup-all .mockup-c {
+.work2-section .work2 .work-contents .mockup-all .mockup-c {
   width: 100%;
 }
-.work1-section .work1 .work-contents .mockup-all .mockup-c .screenshot-c {
+.work2-section .work2 .work-contents .mockup-all .mockup-c .screenshot-c {
   width: 98%;
   height: 78%;
   border-radius: 2%;
@@ -45,10 +45,10 @@
   transform: translateX(-50%);
   overflow: hidden;
 }
-.work1-section .work1 .work-contents .mockup-all .mockup-c .screenshot-c img {
+.work2-section .work2 .work-contents .mockup-all .mockup-c .screenshot-c img {
   width: 100%;
 }
-.work1-section .work1 .work-contents .mockup-all .mockup-c .frame-c {
+.work2-section .work2 .work-contents .mockup-all .mockup-c .frame-c {
   padding-bottom: 80%;
   background-image: url(../img/work/work1/mockup-c.png);
   background-size: contain;
@@ -57,7 +57,7 @@
   position: relative;
   width: 100%;
 }
-.work1-section .work1 .work-contents .mockup-all .mockup-c .frame-c::after {
+.work2-section .work2 .work-contents .mockup-all .mockup-c .frame-c::after {
   content: "";
   display: block;
   position: absolute;
@@ -70,13 +70,13 @@
   padding-bottom: 16%;
   background-image: url(../img/work/work1/mockup-shadow-c.png);
 }
-.work1-section .work1 .work-contents .mockup-all .mockup-m {
+.work2-section .work2 .work-contents .mockup-all .mockup-m {
   right: -10%;
   bottom: 0;
   width: 20%;
   position: absolute;
 }
-.work1-section .work1 .work-contents .mockup-all .mockup-m .screenshot-m {
+.work2-section .work2 .work-contents .mockup-all .mockup-m .screenshot-m {
   width: 88%;
   height: 98%;
   border-radius: 8%;
@@ -86,11 +86,11 @@
   transform: translateX(-50%);
   overflow: hidden;
 }
-.work1-section .work1 .work-contents .mockup-all .mockup-m img {
+.work2-section .work2 .work-contents .mockup-all .mockup-m img {
   width: 100%;
   height: 100%;
 }
-.work1-section .work1 .work-contents .mockup-all .frame-m {
+.work2-section .work2 .work-contents .mockup-all .frame-m {
   position: relative;
   z-index: 2;
   background-image: url(../img/work/work1/mockup-m.png);
@@ -101,7 +101,7 @@
   padding-bottom: 200%;
   box-sizing: border-box;
 }
-.work1-section .work1 .work-contents .mockup-all .frame-m::after {
+.work2-section .work2 .work-contents .mockup-all .frame-m::after {
   content: "";
   display: block;
   position: absolute;
@@ -114,24 +114,24 @@
   filter: blur(2px);
   background-image: url(../img/work/work1/mockup-shadow-m.png);
 }
-.work1-section .work1 .work-contents .mockup-desc {
+.work2-section .work2 .work-contents .mockup-desc {
   display: flex;
   flex-flow: column nowrap;
   width: 400px;
   left: 10%;
   transform: translateX(10%);
 }
-.work1-section .work1 .work-contents .mockup-desc .title h1 {
+.work2-section .work2 .work-contents .mockup-desc .title h1 {
   font-weight: 600;
   font-size: 1.7em;
   padding-bottom: 10px;
 }
-.work1-section .work1 .work-contents .mockup-desc .title p {
+.work2-section .work2 .work-contents .mockup-desc .title p {
   font-weight: 500;
   font-size: 1.3;
   padding-bottom: 10px;
 }
-.work1-section .work1 .work-contents .mockup-desc .title p::after {
+.work2-section .work2 .work-contents .mockup-desc .title p::after {
   content: "";
   display: block;
   width: 90%;
@@ -139,7 +139,7 @@
   margin-top: 10px;
   background-color: rgba(0, 0, 0, 0.3);
 }
-.work1-section .work1 .work-contents .mockup-desc ul li {
+.work2-section .work2 .work-contents .mockup-desc ul li {
   width: 300px;
   font-size: 0.875em;
   font-weight: 500;
@@ -147,18 +147,18 @@
   padding: 8px 0px;
   box-sizing: border-box;
 }
-.work1-section .work1 .work-contents .mockup-desc ul li span {
+.work2-section .work2 .work-contents .mockup-desc ul li span {
   display: inline-block;
   width: 100px;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
-.work1-section .work1 .work-contents .mockup-desc .link {
+.work2-section .work2 .work-contents .mockup-desc .link {
   display: flex;
   gap: 10px;
   padding-top: 20px;
 }
-.work1-section .work1 .work-contents .mockup-desc .link a {
+.work2-section .work2 .work-contents .mockup-desc .link a {
   padding: 8px 16px;
   border-radius: 5px;
   font-size: 0.87em;
@@ -167,7 +167,7 @@
   border-top-width: 1px;
   border-left-width: 1px;
 }
-.work1-section::after {
+.work2-section::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -176,4 +176,4 @@
   width: var(--sub-color);
   height: var(--sub-color);
   background: var(--sub-color);
-}/*# sourceMappingURL=work1.css.map */
+}/*# sourceMappingURL=work2.css.map */

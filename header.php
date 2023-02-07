@@ -15,6 +15,8 @@
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <!-- script -->
   <script src="./js/common.js"></script>
+  <script src="./js/work.js"></script>
+  <script src="./js/scroll.js"></script>
 
   <!-- css -->
   <link rel="stylesheet" href="./css/style.css">
@@ -22,6 +24,7 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/work1.css">
+  <link rel="stylesheet" href="./css/work2.css">
 
   <title>sojin portfolio</title>
 </head>

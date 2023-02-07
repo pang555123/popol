@@ -1,20 +1,21 @@
-<section class="work1-section">
+<section class="work1-section scr-section scr-section3-scr" data-n="3">
   <div class="work1">
     <div class="work-contents">
       <div class="mockup-all">
 
         <div class="mockup-c">
           <div class="screenshot-c">
-            <img src="" alt=""><!-- 컴퓨터안 이미지 -->
-            <p class="frame-c"></p>
+          <img src="./img/work/work1/kids.png" alt="kids 데스크탑이미지"><!-- 컴퓨터안 이미지 --> 
           </div><!-- screenshot -->
+          <p class="frame-c"></p>
+
         </div><!-- mockup-c -->
 
         <div class="mockup-m">
           <div class="screenshot-m">
-            <img src="" alt=""><!-- 컴퓨터안 이미지 -->
-            <p class="frame-m"></p>
+            <img src="./img/work/work1/kids-m.png" alt=""><!-- 컴퓨터안 이미지 -->
           </div><!-- screenshot -->
+          <p class="frame-m"></p>
         </div><!-- mockup-m -->
 
       </div><!-- mockup-all -->
@@ -22,8 +23,8 @@
 
       <div class="mockup-desc">
         <div class="title">
-          <h1>제목</h1>
-          <p>부제목</p>
+          <h1>sunshine-kids </h1>
+          <p>사용자의 감성을 깨우는 새로운 스타일</p>
         </div><!-- title -->
         <ul>
           <li>

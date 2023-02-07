@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="./css/home.css">
-<section class="home-section section">
+<section class="home-section section scr-section scr-section1-scr" data-n="1">
 
   <figure class="bg">
     <img class="moon" src="./img/home/moon.png" alt="">

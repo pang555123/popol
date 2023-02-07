@@ -10,8 +10,10 @@
 .home-section figure.bg .bg {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   top: 0;
   left: 0;
   mix-blend-mode: overlay;
@@ -22,7 +24,16 @@
   left: 20%;
   mix-blend-mode: soft-light;
   opacity: 0.8;
-  animation: moon 50s linear infinite;
+  -webkit-animation: moon 50s linear infinite;
+          animation: moon 50s linear infinite;
+}
+@-webkit-keyframes moon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 @keyframes moon {
   0% {

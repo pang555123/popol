@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="./css/about.css">
-<section class="about-section section">
+<section class="about-section section scr-section scr-section2-scr" data-n="2">
   <div class="about-profile">
     <div class="contents-left-wrap">
       <figure>
