@@ -6,21 +6,25 @@
     height: 200%
   }
   .about-profile{
+    padding-top: 10px;
+    box-sizing: border-box;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
+    box-sizing: border-box;
     @media screen and (max-width:1000px){
       display: block;
+      padding-top: 0px;
     }
-    .contents-left-wrap{//오른쪽
+    .contents-left-wrap{//왼쪽
       width: 50%;
-      margin-top: 100px;
+      height: 100%;
       @media screen and (max-width:1000px){
         width: 100%;
-        margin-top:0 ;
         height: 50%;
       }
       figure{
@@ -85,18 +89,22 @@
         }//li
       }//ul.edu
     }//contents-left-wrap
-    .contents-right-wrap{//왼쪽
+    .contents-right-wrap{//오른쪽
       width: 50%;
-      padding-left: 100px;
-      box-sizing: border-box;
+      height: 100%;
       @media screen and (max-width:1000px){
         width: 100%;
         margin: 0 auto;
         padding-left: 0px;
         height: 50%;
+        padding-top: 50px;
+        box-sizing: border-box;
       }
       h2.name{
         margin-bottom: 50px;
+        @media screen and (max-width:1000px){
+          margin-bottom: 30px;
+        }
         p{
           font-size: 5em;
           font-weight: 800;
@@ -128,12 +136,12 @@
           margin-bottom: 50px;
           @media screen and (max-width:1000px){
             margin-bottom: 30px;
-            font-size: 1.3em;
+            font-size: 1.3em; 
             text-align: center;
           }
         }
         p:nth-child(2){
-          font-size: 1em;
+          font-size: 1.2em;
           max-width: 300px;
           margin-bottom: 30px;
           @media screen and (max-width:1000px){
@@ -155,8 +163,9 @@
           }
         }
         p:nth-child(4){
-          font-size: 1.5em;
+          font-size: 1.4em;
           font-weight: 100;
+          padding-bottom: 40px;
           @media screen and (max-width:1000px){
             margin: 0 auto;
             font-size: 1.1em;

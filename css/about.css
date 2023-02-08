@@ -9,26 +9,30 @@
   }
 }
 .about-section .about-profile {
+  padding-top: 10px;
+  box-sizing: border-box;
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 100px;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1000px) {
   .about-section .about-profile {
     display: block;
+    padding-top: 0px;
   }
 }
 .about-section .about-profile .contents-left-wrap {
   width: 50%;
-  margin-top: 100px;
+  height: 100%;
 }
 @media screen and (max-width: 1000px) {
   .about-section .about-profile .contents-left-wrap {
     width: 100%;
-    margin-top: 0;
     height: 50%;
   }
 }
@@ -103,8 +107,7 @@
 }
 .about-section .about-profile .contents-right-wrap {
   width: 50%;
-  padding-left: 100px;
-  box-sizing: border-box;
+  height: 100%;
 }
 @media screen and (max-width: 1000px) {
   .about-section .about-profile .contents-right-wrap {
@@ -112,10 +115,17 @@
     margin: 0 auto;
     padding-left: 0px;
     height: 50%;
+    padding-top: 50px;
+    box-sizing: border-box;
   }
 }
 .about-section .about-profile .contents-right-wrap h2.name {
   margin-bottom: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .about-section .about-profile .contents-right-wrap h2.name {
+    margin-bottom: 30px;
+  }
 }
 .about-section .about-profile .contents-right-wrap h2.name p {
   font-size: 5em;
@@ -159,7 +169,7 @@
   }
 }
 .about-section .about-profile .contents-right-wrap .introduce p:nth-child(2) {
-  font-size: 1em;
+  font-size: 1.2em;
   max-width: 300px;
   margin-bottom: 30px;
 }
@@ -185,8 +195,9 @@
   }
 }
 .about-section .about-profile .contents-right-wrap .introduce p:nth-child(4) {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 100;
+  padding-bottom: 40px;
 }
 @media screen and (max-width: 1000px) {
   .about-section .about-profile .contents-right-wrap .introduce p:nth-child(4) {

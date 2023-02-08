@@ -32,6 +32,13 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 1000px) {
+  .home-section figure.bg .moon {
+    top: 0;
+    width: 70%;
+    left: 15%;
+  }
+}
 .home-section .textbox {
   position: absolute;
   z-index: 2;
