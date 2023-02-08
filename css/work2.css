@@ -48,7 +48,8 @@
 }
 @media screen and (max-width: 1000px) {
   .work2-section .work2 .work-contents .mockup-all {
-    width: 350px;
+    width: 330px;
+    margin-left: 30px;
   }
 }
 .work2-section .work2 .work-contents .mockup-all .mockup-c {
@@ -90,10 +91,21 @@
   background-image: url(../img/work/work1/mockup-shadow-c.png);
 }
 .work2-section .work2 .work-contents .mockup-all .mockup-m {
-  right: -10%;
-  bottom: 0;
-  width: 20%;
   position: absolute;
+}
+@media screen and (min-width: 1000px) {
+  .work2-section .work2 .work-contents .mockup-all .mockup-m {
+    right: -10%;
+    bottom: 0;
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .work2-section .work2 .work-contents .mockup-all .mockup-m {
+    right: -5%;
+    bottom: 0;
+    width: 20%;
+  }
 }
 .work2-section .work2 .work-contents .mockup-all .mockup-m .screenshot-m {
   width: 88%;
@@ -148,7 +160,7 @@
   .work2-section .work2 .work-contents .mockup-desc {
     margin-left: 90px;
     margin-top: 30px;
-    width: 300px;
+    width: 310px;
   }
 }
 .work2-section .work2 .work-contents .mockup-desc .title h1 {

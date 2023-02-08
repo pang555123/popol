@@ -37,7 +37,8 @@
           margin-right: 60px;
         }
         @media screen and (max-width: 1000px) {
-          width: 350px;
+          width: 330px;
+          margin-left: 30px;
         }
         .mockup-c {
           width: 100%;
@@ -78,10 +79,17 @@
           } //frame-c
         } //mockup-c
         .mockup-m {
-          right: -10%;
-          bottom: 0;
-          width: 20%;
           position: absolute;
+          @media screen and (min-width: 1000px) {
+            right: -10%;
+            bottom: 0;
+            width: 20%;
+          }
+          @media screen and (max-width: 1000px) {
+            right: -5%;
+            bottom: 0;
+            width: 20%;
+          }
           .screenshot-m {
             width: 88%;
             height: 98%;
@@ -133,7 +141,7 @@
           @media screen and (max-width: 1000px) {
             margin-left: 90px;
             margin-top: 30px;
-            width: 300px;
+            width: 310px;
           }
         .title {
           h1 {
