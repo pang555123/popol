@@ -2,8 +2,8 @@ $(function () {
   var t;
   function fnstyle() {
     t = $(".work1-section").offset().top;
-    if (scry >= t) {
-      
+    if (scrY >= t) {
+      $('.work1')
     }
   } //fn
 
