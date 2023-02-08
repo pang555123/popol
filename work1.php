@@ -50,8 +50,7 @@
         </ul>
         <div class="link">
           <a href="#">Styleguide</a>
-          <a href="#">Prototype</a>
-          <a href="#">Prototype</a>
+          <a href="#">Website</a>
         </div>
       </div><!-- mockup-desc -->
     </div><!-- work-contents -->

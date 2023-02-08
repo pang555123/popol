@@ -26,6 +26,11 @@
   gap: 60px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1000px) {
+  .work2-section .work2 .work-contents {
+    flex-flow: column nowrap;
+  }
+}
 .work2-section .work2 .work-contents .mockup-all {
   display: flex;
   position: relative;

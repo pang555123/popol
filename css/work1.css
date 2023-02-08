@@ -26,6 +26,11 @@
   gap: 60px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1000px) {
+  .work1-section .work1 .work-contents {
+    flex-flow: column nowrap;
+  }
+}
 .work1-section .work1 .work-contents .mockup-all {
   display: flex;
   position: relative;
@@ -166,9 +171,15 @@
   border: 2px solid;
   border-top-width: 1px;
   border-left-width: 1px;
+  transition: all 0.8s;
+}
+.work1-section .work1 .work-contents .mockup-desc .link a:hover {
+  background-color: var(--sub-color);
 }
 .work1-section::after {
   content: "";
+  z-index: 1;
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;

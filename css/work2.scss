@@ -23,6 +23,9 @@
       padding: 0 60px;
       gap: 60px;
       box-sizing: border-box;
+      @media screen and (max-width:1000px){
+        flex-flow: column nowrap;
+      }
       .mockup-all {
         display: flex;
         position: relative;
