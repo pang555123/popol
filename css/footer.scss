@@ -1,6 +1,50 @@
 footer{
   width: 100%;
   height: 300px;
+  background-color: var(--main-color);
+  .footer-section{
+    height: 100%;
+    .flow-container{
+      padding: 120px 0;
+      box-sizing: border-box;
+      .flow-text{
+        display: flex;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        transition: 0.3s;
+        font-size: 3em;
+        font-weight:bold;
+        align-items: center;
+        justify-content: center;
+        color: var(--main-color);
+        &:hover{
+          color: #fff;
+          .flow-wrap{
+            animation-play-state: paused;
+            cursor: pointer;
+            text-shadow: none;
+            transition: all 0.5s;
+          }
+        }
+        .flow-wrap{
+          animation: textLoop 10s linear infinite;
+          padding-right: 1.5vw;
+          text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+          @keyframes textLoop {
+            0% {
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+            }
+            100% {
+              -webkit-transform: translate3d(-100%, 0, 0);
+              transform: translate3d(-100%, 0, 0);
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 
