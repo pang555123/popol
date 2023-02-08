@@ -1,0 +1,215 @@
+.work5-section {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  border: 1px solid red;
+  .work5 {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    .work-contents {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
+      box-sizing: border-box;
+      @media screen and (min-width: 1000px) {
+        width: min(100%, 1200px);
+        margin: 0 auto;
+        padding: 0 60px;
+        gap: 60px;
+      }
+      @media screen and (max-width: 1000px) {
+        width: 90%;
+        flex-flow: column nowrap;
+      }
+      .mockup-all {
+        display: flex;
+        position: relative;
+        @media screen and (min-width: 1000px) {
+          width: 600px;
+          margin-right: 60px;
+        }
+        @media screen and (max-width: 1000px) {
+          width: 330px;
+          margin-left: 30px;
+        }
+        .mockup-c {
+          width: 100%;
+          .screenshot-c {
+            width: 98%;
+            height: 78%;
+            border-radius: 2%;
+            position: absolute;
+            top: 2%;
+            left: 50%;
+            transform: translateX(-50%);
+            overflow: hidden;
+            img {
+              width: 100%;
+            } //img
+          } //screenshot-c
+          .frame-c {
+            padding-bottom: 80%;
+            background-image: url(../img/work/work1/mockup-c.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            width: 100%;
+            &::after {
+              content: "";
+              display: block;
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              background-size: contain;
+              filter: blur(2px);
+              top: 84%;
+              width: 80%;
+              padding-bottom: 16%;
+              background-image: url(../img/work/work1/mockup-shadow-c.png);
+            }
+          } //frame-c
+        } //mockup-c
+        .mockup-m {
+          position: absolute;
+          @media screen and (min-width: 1000px) {
+            right: -10%;
+            bottom: 0;
+            width: 20%;
+          }
+          @media screen and (max-width: 1000px) {
+            right: -5%;
+            bottom: 0;
+            width: 20%;
+          }
+          .screenshot-m {
+            width: 88%;
+            height: 98%;
+            border-radius: 8%;
+            top: 2%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            overflow: hidden;
+          } //screenshot-m
+          img {
+            width: 100%;
+            height: 100%;
+          } //img
+        } //mockup-m
+        .frame-m {
+          position: relative;
+          z-index: 2;
+          background-image: url(../img/work/work1/mockup-m.png);
+          width: 100%;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          padding-bottom: 200%;
+          box-sizing: border-box;
+          &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 105%;
+            transform: translateX(-50%);
+            background-size: contain;
+            width: 100%;
+            padding-bottom: 12.5%;
+            filter: blur(2px);
+            background-image: url(../img/work/work1/mockup-shadow-m.png);
+          }
+        } //frame-m
+      } //mockup-all
+        .mockup-desc {
+          display: flex;
+          flex-flow: column nowrap;
+          @media screen and (min-width: 1000px) {
+            left: 10%;
+            transform: translateX(10%);
+            width: 400px;
+          }
+          @media screen and (max-width: 1000px) {
+            margin-left: 90px;
+            margin-top: 30px;
+            width: 310px;
+          }
+        .title {
+          h1 {
+            font-weight: 600;
+            font-size: 1.7em;
+            padding-bottom: 10px;
+          } //h1
+          p {
+            font-weight: 500;
+            font-size: 1.3;
+            padding-bottom: 10px;
+            &::after {
+              content: "";
+              display: block;
+              width: 90%;
+              height: 1px;
+              margin-top: 10px;
+              background-color: rgba($color: #000000, $alpha: 0.3);
+            }
+          } //
+        } //title
+        ul {
+          li {
+            width: 300px;
+            font-size: 0.875em;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            padding: 8px 0px;
+            box-sizing: border-box;
+            span {
+              display: inline-block;
+              width: 100px;
+              font-weight: 600;
+              letter-spacing: 0.02em;
+            }
+          } //li
+        } //ul
+        .link {
+          display: flex;
+          gap: 10px;
+          padding-top: 20px;
+          a {
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-size: 0.87em;
+            font-weight: 700;
+            border: 2px solid;
+            border-top-width: 1px;
+            border-left-width: 1px;
+            transition: all 0.8s;
+            &:hover {
+              background-color: var(--sub-color);
+            }
+          } //a
+        } //link
+      } //mockup-desc
+    } //work-contents
+  } //work1
+  &::after {
+    content: "";
+    z-index: 1;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--sub-color);
+    height: var(--sub-color);
+    background: var(--sub-color);
+  }
+} //section-work1

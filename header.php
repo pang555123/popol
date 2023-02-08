@@ -25,6 +25,10 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/work1.css">
   <link rel="stylesheet" href="./css/work2.css">
+  <link rel="stylesheet" href="./css/work3.css">
+  <link rel="stylesheet" href="./css/work4.css">
+  <link rel="stylesheet" href="./css/work5.css">
+  <link rel="stylesheet" href="./css/work6.css">
 
   <title>sojin portfolio</title>
 </head>
