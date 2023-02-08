@@ -17,9 +17,18 @@
         포트폴리오를 봐주셔서 감사합니다 :)
       </p>
       <p>
-        <button>Mail</button>
-        <button>Tel</button>
-        <button>Github</button>
+        <button>
+          <i class="fa-solid fa-envelope"></i>
+          Mail
+        </button>
+        <button>
+          <i class="fa-solid fa-phone"></i>
+          Tel
+        </button>
+        <button>
+          <i class="fa-brands fa-github"></i>
+          Github
+        </button>
       </p>
     </div>
   </div>

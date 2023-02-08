@@ -12,6 +12,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width:1000px){
+      height: 100%;
+      padding-top: 70px;
+      box-sizing: border-box;
+    }
     figure{
       width: 30%;
       margin-right: 70px;
@@ -28,16 +33,22 @@
     .textbox{
       color: #fff;
       @media screen and (max-width:1000px){
-        width: 90%;
+        width: 100%;
       }
       p:not(p:nth-child(4)){
         margin-bottom: 30px;
         line-height: 1.8;
+        @media screen and (max-width:1000px){
+          line-height: 1.3;
+        }
       }
       p:nth-child(1){
         font-size: 1.7em;
         font-weight: 900;
         line-height: 1.5;
+        @media screen and (max-width:1000px){
+          font-size: 6vw;
+        }
       }
       p:nth-child(2){
         font-size: 17px;
@@ -47,6 +58,9 @@
       }
       p:nth-child(4){
         display: flex;
+        @media screen and (max-width:1000px){
+          flex-direction: column;
+        }
         button{
           width: 180px;
           height: 50px;
@@ -54,6 +68,10 @@
           color: #fff;
           margin-right: 20px;
           border: 1px solid #fff;
+          @media screen and (max-width:1000px){
+            width: 100%;
+            margin-bottom: 10px;
+          }
         }
       }
     }
