@@ -34,14 +34,14 @@ $(function () {
     if (target === 0) {
       target = 1;
     }
-    if (target === 9) {
-      target = 8;
+    if (target === 11) {
+      target = 10;
     }
-    if (target === 8) {
-      $(".scr-section9").attr("data-n", "9");
+    if (target === 10) {
+      $(".scr-section9").attr("data-n", "10");
       var footerH = $("footer").innerHeight();
     } else {
-      $(".scr-section9").attr("data-n", "8");
+      $(".scr-section9").attr("data-n", "9");
       $(".scr-section").css({ transform: `translateY(0px)` });
     }
     /* 스크롤이동명령어 */

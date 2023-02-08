@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="./css/contact.css">
-<section class="contact-section scr-section scr-section9-scr" data-n="9">
+<section class="contact-section scr-section scr-section9 scr-section9-scr" data-n="9">
   <div class="contact-container">
     <figure>
       <img src="./img/about/iu.jfif" alt="프로필사진">

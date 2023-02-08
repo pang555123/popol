@@ -1,4 +1,4 @@
-<section class="work5-section scr-section scr-section7-scr" data-n="7">
+<section class="work5-section scr-section scr-section7 scr-section7-scr" data-n="7">
 <div class="work5">
     <div class="work-contents">
       <div class="mockup-all">
