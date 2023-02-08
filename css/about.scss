@@ -2,6 +2,9 @@
   width: 100%;
   height: 100%;//원스크롤 떄문에 추가함
   color: #fff;
+  @media screen and (max-width:1000px){
+    height: 200%
+  }
   .about-profile{
     width: 90%;
     max-width: 1200px;
@@ -17,6 +20,8 @@
       margin-top: 100px;
       @media screen and (max-width:1000px){
         width: 100%;
+        margin-top:0 ;
+        height: 50%;
       }
       figure{
         margin: 0 auto  ;
@@ -36,6 +41,9 @@
         padding: 30px 0;
         width: 200px;
         margin: 0 auto;
+        @media screen and (max-width:1000px){
+          display: none; 
+         }
         li{
           white-space: nowrap;
           padding: 5px 0;
@@ -47,18 +55,33 @@
         }//li
       }//ul
       ul.edu{
-        width: 500px;
+        width: 100%;
+        max-width: 500px;
         margin: 20px auto;
         text-align: center;
         padding-bottom: 50px;
+        @media screen and (max-width:1000px){
+          padding-top: 20px;
+         }
         >p{
           font-size: 3em;
           padding-bottom: 20px;
+          @media screen and (max-width:1000px){
+            font-size: 7vw;
+          }
         }
         li{
           text-align: left;
           padding-left: 20px;
           padding-bottom: 5px;
+          @media screen and (max-width:1000px){
+            text-align: center;
+           }
+          span{
+            @media screen and (max-width:1000px){
+             display: block; 
+            }
+          }
         }//li
       }//ul.edu
     }//contents-left-wrap
@@ -70,7 +93,7 @@
         width: 100%;
         margin: 0 auto;
         padding-left: 0px;
-        text-align: center;
+        height: 50%;
       }
       h2.name{
         margin-bottom: 50px;
@@ -78,13 +101,24 @@
           font-size: 5em;
           font-weight: 800;
           line-height: 60px;
+          @media screen and (max-width:1000px){
+            font-size: 15vw;
+            text-align: center;
+          }
         }
         small{
           padding-left: 5px;
-
+          @media screen and (max-width:1000px){
+          font-size: 0.85em;
+          padding-left: 20px;
+          }
         }
       }//name
       .introduce{
+        @media screen and (max-width:1000px){
+          margin: 0 auto;
+          margin-bottom: 30px;
+        }
         p{
           font-weight: 300;
         }
@@ -92,23 +126,43 @@
           font-weight: 400;
           font-size: 2em;
           margin-bottom: 50px;
+          @media screen and (max-width:1000px){
+            margin-bottom: 30px;
+            font-size: 1.3em;
+            text-align: center;
+          }
         }
         p:nth-child(2){
-          font-size: 1.2em;
+          font-size: 1em;
           max-width: 300px;
           margin-bottom: 30px;
           @media screen and (max-width:1000px){
             margin: 0 auto;
             margin-bottom: 30px;
+            font-size: 0.95em;
+            text-align: left;
           }
         }
         p:nth-child(3){
-          font-size: 1.2em;
+          font-size: 1em;
           margin-bottom: 30px;
+          @media screen and (max-width:1000px){
+            margin: 0 auto;
+            font-size: 0.9em;
+            text-align: left;
+            max-width: 300px;
+            margin-bottom: 30px;
+          }
         }
         p:nth-child(4){
           font-size: 1.5em;
           font-weight: 100;
+          @media screen and (max-width:1000px){
+            margin: 0 auto;
+            font-size: 1.1em;
+            text-align: left;
+            max-width: 300px;
+          }
         }
       }
     }//contents-right-wrap

@@ -50,12 +50,5 @@ $(function () {
     return false
   }); //bind
 
-fnScrollSpy()
-$(window).resize(function(){
-  fnScrollSpy()
-}).scroll(function () {
-  fnScrollSpy()
-})//win event
-
 
 }); //read
