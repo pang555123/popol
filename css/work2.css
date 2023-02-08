@@ -20,22 +20,36 @@
   justify-content: center;
   align-items: center;
   height: 50%;
-  width: min(100%, 1200px);
-  margin: 0 auto;
-  padding: 0 60px;
-  gap: 60px;
   box-sizing: border-box;
+}
+@media screen and (min-width: 1000px) {
+  .work2-section .work2 .work-contents {
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    padding: 0 60px;
+    gap: 60px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .work2-section .work2 .work-contents {
+    width: 90%;
     flex-flow: column nowrap;
   }
 }
 .work2-section .work2 .work-contents .mockup-all {
   display: flex;
   position: relative;
-  width: 600px;
-  margin-right: 60px;
+}
+@media screen and (min-width: 1000px) {
+  .work2-section .work2 .work-contents .mockup-all {
+    width: 600px;
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .work2-section .work2 .work-contents .mockup-all {
+    width: 350px;
+  }
 }
 .work2-section .work2 .work-contents .mockup-all .mockup-c {
   width: 100%;
@@ -122,9 +136,20 @@
 .work2-section .work2 .work-contents .mockup-desc {
   display: flex;
   flex-flow: column nowrap;
-  width: 400px;
-  left: 10%;
-  transform: translateX(10%);
+}
+@media screen and (min-width: 1000px) {
+  .work2-section .work2 .work-contents .mockup-desc {
+    left: 10%;
+    transform: translateX(10%);
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .work2-section .work2 .work-contents .mockup-desc {
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 300px;
+  }
 }
 .work2-section .work2 .work-contents .mockup-desc .title h1 {
   font-weight: 600;
@@ -171,9 +196,15 @@
   border: 2px solid;
   border-top-width: 1px;
   border-left-width: 1px;
+  transition: all 0.8s;
+}
+.work2-section .work2 .work-contents .mockup-desc .link a:hover {
+  background-color: var(--sub-color);
 }
 .work2-section::after {
   content: "";
+  z-index: 1;
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;

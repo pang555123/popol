@@ -18,19 +18,27 @@
       justify-content: center;
       align-items: center;
       height: 50%;
-      width: min(100%, 1200px);
-      margin: 0 auto;
-      padding: 0 60px;
-      gap: 60px;
       box-sizing: border-box;
-      @media screen and (max-width:1000px){
+      @media screen and (min-width: 1000px) {
+        width: min(100%, 1200px);
+        margin: 0 auto;
+        padding: 0 60px;
+        gap: 60px;
+      }
+      @media screen and (max-width: 1000px) {
+        width: 90%;
         flex-flow: column nowrap;
       }
       .mockup-all {
         display: flex;
         position: relative;
-        width: 600px;
-        margin-right: 60px;
+        @media screen and (min-width: 1000px) {
+          width: 600px;
+          margin-right: 60px;
+        }
+        @media screen and (max-width: 1000px) {
+          width: 350px;
+        }
         .mockup-c {
           width: 100%;
           .screenshot-c {
@@ -54,8 +62,8 @@
             background-repeat: no-repeat;
             position: relative;
             width: 100%;
-            &::after{
-              content: '';
+            &::after {
+              content: "";
               display: block;
               position: absolute;
               left: 50%;
@@ -99,8 +107,8 @@
           background-repeat: no-repeat;
           padding-bottom: 200%;
           box-sizing: border-box;
-          &::after{
-            content: '';
+          &::after {
+            content: "";
             display: block;
             position: absolute;
             left: 50%;
@@ -117,9 +125,16 @@
       .mockup-desc {
         display: flex;
         flex-flow: column nowrap;
-        width: 400px;
-        left: 10%;
-        transform: translateX(10%);
+        @media screen and (min-width: 1000px) {
+          left: 10%;
+          transform: translateX(10%);
+          width: 400px;
+        }
+        @media screen and (max-width: 1000px) {
+          margin-left: 90px;
+          margin-top: 30px;
+          width: 300px;
+        }
         .title {
           h1 {
             font-weight: 600;
@@ -168,17 +183,23 @@
             border: 2px solid;
             border-top-width: 1px;
             border-left-width: 1px;
+            transition: all 0.8s;
+            &:hover {
+              background-color: var(--sub-color);
+            }
           } //a
         } //link
       } //mockup-desc
     } //work-contents
   } //work1
-  &::after{
+  &::after {
     content: "";
+    z-index: 1;
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: var(--sub-color);
     height: var(--sub-color);
     background: var(--sub-color);
