@@ -68,12 +68,17 @@
           color: #fff;
           margin-right: 20px;
           border: 1px solid #fff;
+          transition: all 0.3s;
           @media screen and (max-width:1000px){
             width: 100%;
             margin-bottom: 10px;
           }
-        }
-      }
-    }
+          &:hover{
+            background-color: #fff;
+            color: var(--main-color);
+          }//button hover
+        }//button
+      }//p
+    }//textbox
   }//.contact-container
 }//.contact-section

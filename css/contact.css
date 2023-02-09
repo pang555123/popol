@@ -85,10 +85,15 @@
   color: #fff;
   margin-right: 20px;
   border: 1px solid #fff;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 1000px) {
   .contact-section .contact-container .textbox p:nth-child(4) button {
     width: 100%;
     margin-bottom: 10px;
   }
+}
+.contact-section .contact-container .textbox p:nth-child(4) button:hover {
+  background-color: #fff;
+  color: var(--main-color);
 }/*# sourceMappingURL=contact.css.map */
