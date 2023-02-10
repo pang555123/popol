@@ -8,6 +8,18 @@
   padding-bottom: 80px;
   box-sizing: border-box;
   border: 1px solid red;
+  &::after {
+    display: block;
+    content: "";
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.3s;
+    background: rgba($color: #fff, $alpha: 0.2);
+    animation: move 3s forwards;
+    transform: translate(-50%, -50%);
+  }
   .work1 {
     display: table-cell;
     vertical-align: middle;
@@ -200,32 +212,30 @@
       } //mockup-desc
     } //work-contents
   } //work1
-  .bg {
+  .bg-main {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    clip-path: circle(30%);
+    transition: clip-path 3s;
     &.active {
-      width: 70%;
-      height: 70%;
+      width: 100%;
+      height: 100%;
+      clip-path: circle(100%);
+      background-image: linear-gradient(150deg, rgb(101 129 106) 35%, rgb(193 193 193) 65%);
+      opacity: 0.7;
     } //active
-    &::after {
-      content: "";
-      z-index: 0;
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: rgba($color: #ffffff99, $alpha: 0.2);
-      @media screen and (min-width: 1000px) {
-        width: 200%;
-        height: 480px;
-      }
-      @media screen and (max-width: 1000px) {
-        width: 100%;
-        height: 650px;
-      }
-    } //after
-  } //bg
+  } //bg-main
 } //section-work1
+
+@keyframes move {
+  0% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 360px;
+  }
+}

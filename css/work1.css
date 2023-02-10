@@ -9,6 +9,18 @@
   box-sizing: border-box;
   border: 1px solid red;
 }
+.work1-section::after {
+  display: block;
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.3s;
+  background: rgba(255, 255, 255, 0.2);
+  animation: move 3s forwards;
+  transform: translate(-50%, -50%);
+}
 .work1-section .work1 {
   display: table-cell;
   vertical-align: middle;
@@ -213,35 +225,33 @@
 .work1-section .work1 .work-contents .mockup-desc .link a:hover {
   background-color: var(--sub-color);
 }
-.work1-section .bg {
+.work1-section .bg-main {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-clip-path: circle(30%);
+          clip-path: circle(30%);
+  transition: -webkit-clip-path 3s;
+  transition: clip-path 3s;
+  transition: clip-path 3s, -webkit-clip-path 3s;
 }
-.work1-section .bg.active {
-  width: 70%;
-  height: 70%;
+.work1-section .bg-main.active {
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: circle(100%);
+          clip-path: circle(100%);
+  background-image: linear-gradient(150deg, rgb(101, 129, 106) 35%, rgb(193, 193, 193) 65%);
+  opacity: 0.7;
 }
-.work1-section .bg::after {
-  content: "";
-  z-index: 0;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.2);
-}
-@media screen and (min-width: 1000px) {
-  .work1-section .bg::after {
-    width: 200%;
-    height: 480px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .work1-section .bg::after {
+
+@keyframes move {
+  0% {
     width: 100%;
-    height: 650px;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 360px;
   }
 }/*# sourceMappingURL=work1.css.map */

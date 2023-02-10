@@ -54,6 +54,6 @@
         </div>
       </div><!-- mockup-desc -->
     </div><!-- work-contents -->
-    <div class="bg"></div>
+    <div class="bg-main"></div>
   </div><!-- work1 -->
 </section><!-- section-work1 -->
