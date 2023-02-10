@@ -3,9 +3,9 @@ $(function () {
   function fnstyle() {
     t = $(".work1-section").offset().top;
     if (scrY >= t) {
-      $('.work1').addClass('active')
+      $('.work1 .bg').addClass('active')
     }else{
-      $('.work1').removeClass('active')
+      $('.work1 .bg').removeClass('active')
     }
   } //fn
 

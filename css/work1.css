@@ -213,15 +213,35 @@
 .work1-section .work1 .work-contents .mockup-desc .link a:hover {
   background-color: var(--sub-color);
 }
-.work1-section::after {
+.work1-section .bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.work1-section .bg.active {
+  width: 70%;
+  height: 70%;
+}
+.work1-section .bg::after {
   content: "";
-  z-index: 1;
+  z-index: 0;
   display: block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: var(--sub-color);
-  height: var(--sub-color);
-  background: var(--sub-color);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+@media screen and (min-width: 1000px) {
+  .work1-section .bg::after {
+    width: 200%;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .work1-section .bg::after {
+    width: 100%;
+    height: 650px;
+  }
 }/*# sourceMappingURL=work1.css.map */

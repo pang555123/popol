@@ -1,4 +1,4 @@
-<section class="work1-section scr-section scr-section3 scr-section3-scr" data-n="3">
+<section id="one" class="work1-section scr-section scr-section3 scr-section3-scr" data-n="3">
   <div class="work1">
     <div class="work-contents">
       <div class="mockup-all">
@@ -54,5 +54,6 @@
         </div>
       </div><!-- mockup-desc -->
     </div><!-- work-contents -->
+    <div class="bg"></div>
   </div><!-- work1 -->
 </section><!-- section-work1 -->
