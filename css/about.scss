@@ -175,6 +175,46 @@
         }
       }
     }//contents-right-wrap
-    
+    /* active motion before */
+    .contents-left-wrap{
+      figure{
+        filter: grayscale(100%);
+        transition: all 2s;
+      }
+      .profile-info{
+        opacity: 0;
+      }
+      .edu{
+        opacity: 0;
+      }
+    }
+    .contents-right-wrap{
+      opacity: 0;
+      transform: translateX(-10%);
+    }
+    /* active motion after */
+    &.active{
+      .contents-left-wrap{
+        figure{
+          filter: grayscale(0%);
+        }
+        .profile-info{
+          opacity: 1;
+          transition: opacity 1s;
+          transition-delay: 0.5s;
+        }
+        .edu{
+          opacity: 1;
+          transition: all 1s;
+          transition-delay: 1s;
+        }
+      }//.contents-left-wrap
+      .contents-right-wrap{
+        transition: opacity 0.5s , transform 0.7s;
+        transform: translateX(0);
+        opacity: 1;
+        transition-delay: 1.5s;
+      }//contents-right-wrap
+    }//&.avtive
   }//about-profile
 }//about

@@ -14,6 +14,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* active motion before*/
+  /* active motion after */
 }
 @media screen and (max-width: 1000px) {
   .contact-section .contact-container {
@@ -96,4 +98,29 @@
 .contact-section .contact-container .textbox p:nth-child(4) button:hover {
   background-color: #fff;
   color: var(--main-color);
+}
+.contact-section .contact-container figure {
+  filter: grayscale(100%);
+  transition: all 1s;
+}
+.contact-section .contact-container .textbox p {
+  transform: translateX(-10%);
+  opacity: 0;
+  transition: transform 0.7s, opacity 0.5s;
+}
+.contact-section .contact-container .textbox p:nth-child(2) {
+  transition-delay: 0.5s;
+}
+.contact-section .contact-container .textbox p:nth-child(3) {
+  transition-delay: 1s;
+}
+.contact-section .contact-container .textbox p:nth-child(4) {
+  transition-delay: 1.5s;
+}
+.contact-section .contact-container.active figure {
+  filter: grayscale(0);
+}
+.contact-section .contact-container.active .textbox p {
+  transform: translateX(0);
+  opacity: 1;
 }/*# sourceMappingURL=contact.css.map */

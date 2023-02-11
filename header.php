@@ -17,18 +17,24 @@
   <script src="./js/common.js"></script>
   <script src="./js/work.js"></script>
   <script src="./js/scroll.js"></script>
-
+  <script src="./js/active.js"></script>
   <!-- css -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/about.css">
   <link rel="stylesheet" href="./css/work1.css">
   <link rel="stylesheet" href="./css/work2.css">
   <link rel="stylesheet" href="./css/work3.css">
   <link rel="stylesheet" href="./css/work4.css">
   <link rel="stylesheet" href="./css/work5.css">
   <link rel="stylesheet" href="./css/work6.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  
+
 
   <title>sojin portfolio</title>
 </head>

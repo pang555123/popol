@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="./css/home.css">
 <section class="home-section section scr-section scr-section1 scr-section1-scr" data-n="1">
 
   <figure class="bg">

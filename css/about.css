@@ -19,6 +19,8 @@
   justify-content: center;
   padding-top: 100px;
   box-sizing: border-box;
+  /* active motion before */
+  /* active motion after */
 }
 @media screen and (max-width: 1000px) {
   .about-section .about-profile {
@@ -206,4 +208,37 @@
     text-align: left;
     max-width: 300px;
   }
+}
+.about-section .about-profile .contents-left-wrap figure {
+  filter: grayscale(100%);
+  transition: all 2s;
+}
+.about-section .about-profile .contents-left-wrap .profile-info {
+  opacity: 0;
+}
+.about-section .about-profile .contents-left-wrap .edu {
+  opacity: 0;
+}
+.about-section .about-profile .contents-right-wrap {
+  opacity: 0;
+  transform: translateX(-10%);
+}
+.about-section .about-profile.active .contents-left-wrap figure {
+  filter: grayscale(0%);
+}
+.about-section .about-profile.active .contents-left-wrap .profile-info {
+  opacity: 1;
+  transition: opacity 1s;
+  transition-delay: 0.5s;
+}
+.about-section .about-profile.active .contents-left-wrap .edu {
+  opacity: 1;
+  transition: all 1s;
+  transition-delay: 1s;
+}
+.about-section .about-profile.active .contents-right-wrap {
+  transition: opacity 0.5s, transform 0.7s;
+  transform: translateX(0);
+  opacity: 1;
+  transition-delay: 1.5s;
 }/*# sourceMappingURL=about.css.map */

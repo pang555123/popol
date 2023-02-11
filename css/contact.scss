@@ -80,5 +80,39 @@
         }//button
       }//p
     }//textbox
+    /* active motion before*/
+    figure{
+      filter: grayscale(100%);
+      transition: all 1s;
+    }
+    .textbox{
+      p{
+        transform: translateX(-10%);
+        opacity: 0;   
+        transition: transform 0.7s , opacity 0.5s ; 
+        &:nth-child(2){
+          transition-delay: 0.5s;
+        }
+        &:nth-child(3){
+          transition-delay: 1s;
+        }
+        &:nth-child(4){
+          transition-delay: 1.5s;
+        }
+      }
+
+    }
+    /* active motion after */
+    &.active{
+      figure{
+        filter: grayscale(0);
+      }//figure
+      .textbox{
+        p{
+          transform: translateX(0);
+          opacity: 1 ;
+        }
+      }//textbox
+    }//.active
   }//.contact-container
 }//.contact-section
