@@ -1,4 +1,5 @@
 <section id="one" class="work-section work1-section scr-section scr-section3 scr-section3-scr" data-n="3">
+  <div class="bg"></div>
     <div class="work1">
       <div class="work-contents">
         <div class="mockup-all">

@@ -213,15 +213,42 @@
 .work2-section .work2 .work-contents .mockup-desc .link a:hover {
   background-color: var(--sub-color);
 }
-.work2-section::after {
-  content: "";
-  z-index: 1;
-  display: block;
+.work2-section .bg-main {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: var(--sub-color);
-  height: var(--sub-color);
-  background: var(--sub-color);
+  -webkit-clip-path: circle(40%);
+          clip-path: circle(40%);
+  transition: all 1s;
+}
+.work2-section .bg-main.active {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: circle(80%);
+          clip-path: circle(80%);
+  background-image: linear-gradient(150deg, rgb(101, 129, 106) 35%, rgb(193, 193, 193) 65%);
+  opacity: 0.5;
+}
+.work2-section .bg.active {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.3s;
+  background: rgba(255, 255, 255, 0.2);
+  animation: move 1s forwards;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes move {
+  0% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 360px;
+  }
 }/*# sourceMappingURL=work2.css.map */

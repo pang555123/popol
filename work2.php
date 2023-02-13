@@ -1,11 +1,12 @@
 <section class="work-section work2-section scr-section scr-section4 scr-section4-scr" data-n="4">
-<div class="work2">
+  <div class="bg"></div>
+  <div class="work2">
     <div class="work-contents">
       <div class="mockup-all">
 
         <div class="mockup-c">
           <div class="screenshot-c">
-          <img src="./img/work/work1/kids.png" alt="kids 데스크탑이미지"><!-- 컴퓨터안 이미지 --> 
+            <img src="./img/work/work1/kids.png" alt="kids 데스크탑이미지"><!-- 컴퓨터안 이미지 -->
           </div><!-- screenshot -->
           <p class="frame-c"></p>
 
