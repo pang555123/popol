@@ -1,20 +1,19 @@
-$(function () {
-  var t;
+$(function(){
   function fnstyle() {
-    t = $(".work-section").offset().top;
-    if (scrY >= t) {
-      $(".work1 .bg-main").addClass("active");
-    } else{
-      $(".work1 .bg-main").removeClass("active");
-    }
-  } //fn
-
-  fnstyle();
-  $(window)
-    .resize(function () {
-      fnstyle();
+    $(`.section-work1, .bg-main`).each(function () {
+      t = $(this).offset().top// 객체와 윈도우탑의 거리
+      if (scrY >= t - winH * 0.9 && scrY <= t - winH * 0.06) {
+        $(this).addClass('active')
+      } else {
+        $(this).removeClass('active')
+      }
+    })//each
+  }//fn1
+  
+  fnstyle()
+    $(window).resize(function () {
+      fnstyle()
+    }).scroll(function () {
+      fnstyle()
     })
-    .scroll(function () {
-      fnstyle();
-    }); //window event
-}); //ready
+})//ready

@@ -229,21 +229,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-clip-path: circle(30%);
-          clip-path: circle(30%);
-  transition: -webkit-clip-path 3s;
-  transition: clip-path 3s;
-  transition: clip-path 3s, -webkit-clip-path 3s;
-  transition: all 2s;
+  -webkit-clip-path: circle(40%);
+          clip-path: circle(40%);
+  transition: all 1s;
 }
 .work1-section .bg-main.active {
   z-index: -1;
   width: 100%;
   height: 100%;
-  -webkit-clip-path: circle(100%);
-          clip-path: circle(100%);
+  -webkit-clip-path: circle(80%);
+          clip-path: circle(80%);
   background-image: linear-gradient(150deg, rgb(101, 129, 106) 35%, rgb(193, 193, 193) 65%);
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 @keyframes move {
