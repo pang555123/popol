@@ -15,9 +15,9 @@
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <!-- script -->
   <script src="./js/common.js"></script>
-  <script src="./js/work.js"></script>
   <script src="./js/scroll.js"></script>
   <script src="./js/active.js"></script>
+  <script src="./js/work.js"></script>
   <!-- css -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/common.css">

@@ -1,25 +1,22 @@
-<section class="work-section work4-section scr-section scr-section  scr-section6 scr-section6-scr" data-n="6">
-<div class="work4">
+<section class="work-section work4-section scr-section scr-section6 scr-section6-scr" data-n="6">
+  <div class="bg-main"></div>
+  <div class="bg"></div>
+  <div class="work">
     <div class="work-contents">
       <div class="mockup-all">
-
         <div class="mockup-c">
           <div class="screenshot-c">
-          <img src="./img/work/work1/kids.png" alt="kids 데스크탑이미지"><!-- 컴퓨터안 이미지 --> 
+            <img src="./img/work/work1/kids.png" alt="kids 데스크탑이미지"><!-- 컴퓨터안 이미지 -->
           </div><!-- screenshot -->
           <p class="frame-c"></p>
-
         </div><!-- mockup-c -->
-
         <div class="mockup-m">
           <div class="screenshot-m">
             <img src="./img/work/work1/kids-m.png" alt=""><!-- 컴퓨터안 이미지 -->
           </div><!-- screenshot -->
           <p class="frame-m"></p>
         </div><!-- mockup-m -->
-
       </div><!-- mockup-all -->
-
 
       <div class="mockup-desc">
         <div class="title">
@@ -50,9 +47,9 @@
         </ul>
         <div class="link">
           <a href="#">Styleguide</a>
-          <a href="#">Prototype</a>
+          <a href="#">Website</a>
         </div>
       </div><!-- mockup-desc -->
     </div><!-- work-contents -->
   </div><!-- work1 -->
-</section>
+</section><!-- section-work1 -->
