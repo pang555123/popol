@@ -1,23 +1,5 @@
 $(function () {
-  /* 첫페이지 주소검사 */
-  var url = location.href; //현재주소
-  var domain = location.protocol + "//" + location.hostname + "/"; //도메인
-  var target;
-
-  /* 섹션별 휠이벤트 */
-  var headerH;
-  function fnHeaderHeight() {
-    if (matchMedia("(min-width:1200px)").matches) {
-      //미디어쿼리 여부에따라 달라짐
-      headerH = 0;
-    } else {
-      headerH = 0;
-    }
-  } //fn
-  fnHeaderHeight();
-  $(window).resize(function () {
-    fnHeaderHeight();
-  }); //resize
+  //사용하지 않는 내용 삭제 
   /* 섹션별 휠이벤트 */
   var isWheel = true;
   $(".scr-section").bind("mousewheel", function (e) {
@@ -39,13 +21,11 @@ $(function () {
     }
     if (target === 10) {
       $(".scr-section9").attr("data-n", "10");
-      var footerH = $("footer").innerHeight();
     } else {
       $(".scr-section9").attr("data-n", "9");
-      $(".scr-section").css({ transform: `translateY(0px)` });
     }
     /* 스크롤이동명령어 */
-    $("body,html").stop().animate({scrollTop: $(".scr-section" + target + "-scr").offset().top - headerH});
+    $("body,html").stop().animate({ scrollTop: $(".scr-section" + target + "-scr").offset().top});
 
     return false
   }); //bind

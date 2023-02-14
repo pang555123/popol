@@ -101,26 +101,26 @@
 }
 .contact-section .contact-container figure {
   filter: grayscale(100%);
-  transition: all 1s;
 }
 .contact-section .contact-container .textbox p {
   transform: translateX(-10%);
   opacity: 0;
-  transition: transform 0.7s, opacity 0.5s;
-}
-.contact-section .contact-container .textbox p:nth-child(2) {
-  transition-delay: 0.5s;
-}
-.contact-section .contact-container .textbox p:nth-child(3) {
-  transition-delay: 1s;
-}
-.contact-section .contact-container .textbox p:nth-child(4) {
-  transition-delay: 1.5s;
 }
 .contact-section .contact-container.active figure {
   filter: grayscale(0);
+  transition: all 1s;
 }
 .contact-section .contact-container.active .textbox p {
   transform: translateX(0);
   opacity: 1;
+  transition: transform 0.7s, opacity 0.5s;
+}
+.contact-section .contact-container.active .textbox p:nth-child(2) {
+  transition-delay: 0.5s;
+}
+.contact-section .contact-container.active .textbox p:nth-child(3) {
+  transition-delay: 1s;
+}
+.contact-section .contact-container.active .textbox p:nth-child(4) {
+  transition-delay: 1.5s;
 }/*# sourceMappingURL=contact.css.map */
