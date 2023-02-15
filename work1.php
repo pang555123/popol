@@ -48,6 +48,7 @@
         <div class="link">
           <a href="#">Styleguide</a>
           <a href="#">Website</a>
+          <a href="#">Planning</a>
         </div>
       </div><!-- mockup-desc -->
     </div><!-- work-contents -->
