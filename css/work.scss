@@ -212,23 +212,25 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    clip-path: circle(40%);
-    transition: all 1s;
+    clip-path: circle(20%);
+    
   } //bg-main
   /* active 모션 */
   &.active {
     .bg-main {
       z-index: 0;
       width: 100%;
-      height: 100%;
+      height: 300%;
       clip-path: circle(100%);
       background-image: linear-gradient(150deg, rgb(101 129 106) 35%, rgb(193 193 193) 65%);
-      opacity: 0.9;
+      opacity:1;
+      transition: all 5s; //애니메이션 확인을 위해 느리게 설정함 
     } //bg-main
     .bg {//첫화면 구현을 위해 active 전의 bg로 옮김 
       z-index: 0;
-      animation: move 1s forwards;
+      animation: move 0.5s forwards ease;
       top:53.5%; // 박스 위치 지정 위해 추가 
+      animation-delay: 0.3s;
     } //bg
   } //active
 } //section-work1
