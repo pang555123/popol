@@ -240,10 +240,38 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-image: linear-gradient(150deg, rgb(101 129 106) 35%, rgb(193 193 193) 65%);
       opacity: 1;
       transition: 2s ease-out; //애니메이션 확인을 위해 느리게 설정함
     } //bg-main
+    .bg-main {
+      z-index: 0;
+      width: 100%;
+      height: 300%;
+      clip-path: circle(100%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      transition: 2s ease-out; //애니메이션 확인을 위해 느리게 설정함
+    } //bg-main
+    .bg-main1{
+      background-image: linear-gradient(150deg, rgb(247, 232, 99) 35%, rgb(252, 251, 209) 65%);
+    }
+    .bg-main2{
+      background-image: linear-gradient(150deg, rgb(156, 54, 151) 35%,rgb(220 220 220) 65%);
+    }
+    .bg-main3{
+      background-image: linear-gradient(150deg, rgb(9 39 66) 35%,rgb(0,0,0) 65%);
+    }
+    .bg-main4{
+      background-image: linear-gradient(150deg, rgb(223 170 188) 35%,rgb(220 220 220) 65%);
+    }
+    .bg-main5{
+      background-image: linear-gradient(150deg, rgb(110 5 5) 35%,rgb(0,0,0) 65%);
+    }
+    .bg-main6{
+      background-image: linear-gradient(150deg, rgb(64, 192, 102) 35%,rgb(74, 166, 228) 65%);
+    }
     .bg {
       //첫화면 구현을 위해 active 전의 bg로 옮김
       z-index: 0;

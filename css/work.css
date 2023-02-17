@@ -263,9 +263,38 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: linear-gradient(150deg, rgb(101, 129, 106) 35%, rgb(193, 193, 193) 65%);
   opacity: 1;
   transition: 2s ease-out;
+}
+.work-section.active .bg-main {
+  z-index: 0;
+  width: 100%;
+  height: 300%;
+  -webkit-clip-path: circle(100%);
+          clip-path: circle(100%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: 2s ease-out;
+}
+.work-section.active .bg-main1 {
+  background-image: linear-gradient(150deg, rgb(247, 232, 99) 35%, rgb(252, 251, 209) 65%);
+}
+.work-section.active .bg-main2 {
+  background-image: linear-gradient(150deg, rgb(156, 54, 151) 35%, rgb(220, 220, 220) 65%);
+}
+.work-section.active .bg-main3 {
+  background-image: linear-gradient(150deg, rgb(9, 39, 66) 35%, rgb(0, 0, 0) 65%);
+}
+.work-section.active .bg-main4 {
+  background-image: linear-gradient(150deg, rgb(223, 170, 188) 35%, rgb(220, 220, 220) 65%);
+}
+.work-section.active .bg-main5 {
+  background-image: linear-gradient(150deg, rgb(110, 5, 5) 35%, rgb(0, 0, 0) 65%);
+}
+.work-section.active .bg-main6 {
+  background-image: linear-gradient(150deg, rgb(64, 192, 102) 35%, rgb(74, 166, 228) 65%);
 }
 .work-section.active .bg {
   z-index: 0;

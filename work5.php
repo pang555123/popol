@@ -1,18 +1,18 @@
 <section class="work-section work5-section scr-section scr-section7 scr-section7-scr" data-n="7">
-  <div class="bg-main"></div>
+  <div class="bg-main bg-main5"></div>
   <div class="bg"></div>
   <div class="work">
     <div class="work-contents">
       <div class="mockup-all">
         <div class="mockup-c">
           <div class="screenshot-c">
-            <img src="./img/work/work1/kids.png" alt="kids 데스크탑이미지"><!-- 컴퓨터안 이미지 -->
+            <img src="./img/work/work5/team.png" alt="서야궁 데스크탑이미지"><!-- 컴퓨터안 이미지 -->
           </div><!-- screenshot -->
           <p class="frame-c"></p>
         </div><!-- mockup-c -->
         <div class="mockup-m">
           <div class="screenshot-m">
-            <img src="./img/work/work1/kids-m.png" alt=""><!-- 컴퓨터안 이미지 -->
+            <img src="./img/work/work5/team-m.png" alt="서양궁 모바일 이미지"><!-- 컴퓨터안 이미지 -->
           </div><!-- screenshot -->
           <p class="frame-m"></p>
         </div><!-- mockup-m -->
@@ -20,8 +20,8 @@
 
       <div class="mockup-desc">
         <div class="title">
-          <h1>sunshine-kids </h1>
-          <p>사용자의 감성을 깨우는 새로운 스타일</p>
+          <h1>Seo-ya Palace</h1>
+          <p>궁의 아름다움을 경험하는 특별한 감동</p>
         </div><!-- title -->
         <ul>
           <li>
@@ -47,7 +47,8 @@
         </ul>
         <div class="link">
           <a href="#">Styleguide</a>
-          <a href="#">Website</a>
+          <a href="http://pass214900.dothome.co.kr/서야궁" target="_blank">Website</a>
+          <a href="#">Planning</a>
         </div>
       </div><!-- mockup-desc -->
     </div><!-- work-contents -->

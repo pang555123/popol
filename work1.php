@@ -1,5 +1,5 @@
 <section class="work-section work1-section scr-section scr-section3 scr-section3-scr" data-n="3">
-  <div class="bg-main"></div>
+  <div class="bg-main bg-main1"></div>
   <div class="bg"></div>
   <div class="work">
     <div class="work-contents">
@@ -20,7 +20,7 @@
 
       <div class="mockup-desc">
         <div class="title">
-          <h1>sunshine-kids </h1>
+          <h1>Sunshine-Kids </h1>
           <p>사용자의 감성을 깨우는 새로운 스타일</p>
         </div><!-- title -->
         <ul>
@@ -47,7 +47,7 @@
         </ul>
         <div class="link">
           <a href="#">Styleguide</a>
-          <a href="#">Website</a>
+          <a href="http://ksm9423.dothome.co.kr/sunshine-kids" target="_blank">Website</a>
           <a href="#">Planning</a>
         </div>
       </div><!-- mockup-desc -->
