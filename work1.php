@@ -6,13 +6,13 @@
       <div class="mockup-all">
         <div class="mockup-c">
           <div class="screenshot-c">
-            <img src="./img/work/work1/kids.png" alt="kids 데스크탑이미지"><!-- 컴퓨터안 이미지 -->
+          <img src="./img/work/work5/team.png" alt="서야궁 데스크탑이미지"><!-- 컴퓨터안 이미지 --> 
           </div><!-- screenshot -->
           <p class="frame-c"></p>
         </div><!-- mockup-c -->
         <div class="mockup-m">
           <div class="screenshot-m">
-            <img src="./img/work/work1/kids-m.png" alt=""><!-- 컴퓨터안 이미지 -->
+          <img src="./img/work/work5/team-m.png" alt="서양궁 모바일 이미지"><!-- 컴퓨터안 이미지 -->
           </div><!-- screenshot -->
           <p class="frame-m"></p>
         </div><!-- mockup-m -->
@@ -46,9 +46,8 @@
           </li>
         </ul>
         <div class="link">
-          <a href="#">Styleguide</a>
-          <a href="http://ksm9423.dothome.co.kr/sunshine-kids" target="_blank">Website</a>
           <a href="#">Planning</a>
+          <a href="http://pass214900.dothome.co.kr/서야궁" target="_blank">Website</a>
         </div>
       </div><!-- mockup-desc -->
     </div><!-- work-contents -->
