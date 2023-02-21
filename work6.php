@@ -20,8 +20,8 @@
 
       <div class="mockup-desc">
         <div class="title">
-          <h1>Weather App</h1>
-          <p>날씨앱</p>
+          <h1>SPW</h1>
+          <p>계산해드립니다!</p>
         </div><!-- title -->
         <ul>
           <li>

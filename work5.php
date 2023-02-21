@@ -20,8 +20,8 @@
 
       <div class="mockup-desc">
         <div class="title">
-          <h1>Seo-ya Palace</h1>
-          <p>궁의 아름다움을 경험하는 특별한 감동</p>
+          <h1>NAVY</h1>
+          <p>향기를 디자인하는 향 전문 컨설팅</p>
         </div><!-- title -->
         <ul>
           <li>

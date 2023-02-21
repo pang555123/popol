@@ -20,8 +20,8 @@
 
       <div class="mockup-desc">
         <div class="title">
-          <h1>DANCE STUDIO</h1>
-          <p>Dance Classes</p>
+          <h1>SITE LOGO</h1>
+          <p>트랜드를 선도하는 기업</p>
         </div><!-- title -->
         <ul>
           <li>

@@ -191,7 +191,7 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 .work-section .work .work-contents .mockup-desc ul li {
-  width: 300px;
+  width: 100%;
   font-size: 0.875em;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -200,29 +200,31 @@
 }
 .work-section .work .work-contents .mockup-desc ul li span {
   display: inline-block;
-  width: 100px;
+  height: 100%;
   letter-spacing: 0.02em;
 }
 @media screen and (min-width: 1000px) {
   .work-section .work .work-contents .mockup-desc ul li span {
-    font-size: 0.87em;
-    font-weight: 600;
+    width: 120px;
+    font-size: 0.8em;
+    font-weight: 700;
   }
 }
 @media screen and (max-width: 1000px) {
   .work-section .work .work-contents .mockup-desc ul li span {
+    width: 120px;
     font-size: 0.75em;
-    font-weight: 700;
+    font-weight: 600;
   }
 }
 .work-section .work .work-contents .mockup-desc .link {
   display: flex;
   gap: 7px;
   padding-top: 10px;
-  padding-left: -30px;
+  padding-left: -50px;
 }
 .work-section .work .work-contents .mockup-desc .link a {
-  padding: 7px 10px;
+  padding: 7px 15px;
   border-radius: 5px;
   border: 2px solid;
   border-top-width: 1px;
@@ -237,7 +239,7 @@
 }
 @media screen and (max-width: 1000px) {
   .work-section .work .work-contents .mockup-desc .link a {
-    font-size: 0.75em;
+    font-size: 0.8em;
     font-weight: 700;
   }
 }
@@ -272,16 +274,19 @@
   background-image: linear-gradient(150deg, rgb(122, 236, 156) 35%, #9ad1f7 65%);
 }
 .work-section.active .bg-main3 {
-  background-image: linear-gradient(150deg, rgb(9, 39, 66) 35%, rgb(0, 0, 0) 65%);
+  background-image: linear-gradient(150deg, rgb(76, 161, 235) 35%, rgb(0, 0, 0) 65%);
 }
 .work-section.active .bg-main4 {
-  background-image: linear-gradient(150deg, rgb(110, 5, 5) 35%, rgb(0, 0, 0) 65%);
+  background-image: linear-gradient(150deg, rgb(240, 142, 142) 35%, rgb(19, 18, 18) 65%);
 }
 .work-section.active .bg-main5 {
   background-image: linear-gradient(150deg, rgb(223, 170, 188) 35%, rgb(220, 220, 220) 65%);
 }
 .work-section.active .bg-main6 {
-  background-image: linear-gradient(150deg, rgb(247, 232, 99) 35%, rgb(252, 251, 209) 65%);
+  background-image: linear-gradient(150deg, rgb(252, 209, 160) 35%, rgb(252, 251, 209) 65%);
+}
+.work-section.active .bg {
+  opacity: 0.6;
 }
 @media screen and (min-width: 1000px) {
   .work-section.active .bg {

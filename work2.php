@@ -20,8 +20,8 @@
 
       <div class="mockup-desc">
         <div class="title">
-          <h1>NAVY </h1>
-          <p>향기를 디자인하는 향 전문 컨설팅</p>
+          <h1>Weather App</h1>
+          <p>날씨를 알려드려요!</p>
         </div><!-- title -->
         <ul>
           <li>

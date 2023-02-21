@@ -172,7 +172,7 @@
         } //title
         ul {
           li {
-            width: 300px;
+            width: 100%;
             font-size: 0.875em;
             font-weight: 500;
             letter-spacing: 0.02em;
@@ -180,15 +180,17 @@
             box-sizing: border-box;
             span {
               display: inline-block;
-              width: 100px;
+              height: 100%;
               letter-spacing: 0.02em;
               @media screen and (min-width: 1000px) {
-                font-size: 0.87em;
-                font-weight: 600;
+                width: 120px;
+                font-size: 0.8em;
+                font-weight: 700;
               }
               @media screen and (max-width: 1000px) {
+                width: 120px;
                 font-size: 0.75em;
-                font-weight: 700;
+                font-weight: 600;
               }
             }
           } //li
@@ -197,9 +199,9 @@
           display: flex;
           gap: 7px;
           padding-top: 10px;
-          padding-left: -30px;
+          padding-left: -50px;
           a {
-            padding: 7px 10px;
+            padding: 7px 15px;
             border-radius: 5px;
             border: 2px solid;
             border-top-width: 1px;
@@ -210,7 +212,7 @@
               font-weight: 700;
             }
             @media screen and (max-width: 1000px) {
-              font-size: 0.75em;
+              font-size: 0.8em;
               font-weight: 700;
             }
             &:hover {
@@ -249,19 +251,20 @@
       background-image: linear-gradient(150deg, rgb(122, 236, 156) 35%, #9ad1f7 65%);
     }
     .bg-main3 {
-      background-image: linear-gradient(150deg, rgb(9 39 66) 35%, rgb(0, 0, 0) 65%);
+      background-image: linear-gradient(150deg, rgb(76, 161, 235) 35%, rgb(0, 0, 0) 65%);
     }
     .bg-main4 {
-      background-image: linear-gradient(150deg, rgb(110 5 5) 35%, rgb(0, 0, 0) 65%);
+      background-image: linear-gradient(150deg, rgb(240, 142, 142) 35%, rgb(19, 18, 18) 65%);
     }
     .bg-main5 {
       background-image: linear-gradient(150deg, rgb(223 170 188) 35%, rgb(220 220 220) 65%);
     }
     .bg-main6 {
-      background-image: linear-gradient(150deg, rgb(247, 232, 99) 35%, rgb(252, 251, 209) 65%);
+      background-image: linear-gradient(150deg, rgb(252, 209, 160) 35%, rgb(252, 251, 209) 65%);
     }
 
     .bg {
+      opacity: 0.6;
       //첫화면 구현을 위해 active 전의 bg로 옮김
       @media screen and (min-width: 1000px) {
         z-index: 0;
