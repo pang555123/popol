@@ -245,22 +245,22 @@
       transition: 1s ease-out; //애니메이션 확인을 위해 느리게 설정함
     } //bg-main
     .bg-main1 {
-      background-image: linear-gradient(150deg, rgb(156, 54, 151) 35%, rgb(220 220 220) 65%);
+      background-image: linear-gradient(150deg, #000a16 35%, #a6bbd3 65%);
     }
     .bg-main2 {
-      background-image: linear-gradient(150deg, rgb(122, 236, 156) 35%, #9ad1f7 65%);
+      background-image: linear-gradient(150deg, rgb(142, 209, 241) 35%, #ddd 65%);
     }
     .bg-main3 {
-      background-image: linear-gradient(150deg, rgb(76, 161, 235) 35%, rgb(167, 167, 167) 65%);
+      background-image: linear-gradient(150deg, #0199f3 35%, #c7e1f9 65%);
     }
     .bg-main4 {
-      background-image: linear-gradient(150deg, rgb(240, 142, 142) 35%, rgb(133, 128, 128) 65%);
+      background-image: linear-gradient(150deg, #0272bc 35%, #f68e56 65%);
     }
     .bg-main5 {
       background-image: linear-gradient(150deg, rgb(223 170 188) 35%, rgb(220 220 220) 65%);
-    }
+    }// 각자 포폴에 맞게
     .bg-main6 {
-      background-image: linear-gradient(150deg, rgb(252, 209, 160) 35%, rgb(252, 251, 209) 65%);
+      background-image: linear-gradient(150deg, rgb(252, 209, 160) 35%, #fff 65%);
     }
 
     .bg {

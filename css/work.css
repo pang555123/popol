@@ -252,15 +252,13 @@
   height: 300%;
   top: 50%;
   left: 50%;
-  -webkit-clip-path: circle(30%);
-          clip-path: circle(30%);
+  clip-path: circle(30%);
   transform: translate(-50%, -50%);
   opacity: 0.5;
 }
 .work-section.active .bg-main {
   z-index: 0;
-  -webkit-clip-path: circle(100%);
-          clip-path: circle(100%);
+  clip-path: circle(100%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -268,22 +266,22 @@
   transition: 1s ease-out;
 }
 .work-section.active .bg-main1 {
-  background-image: linear-gradient(150deg, rgb(156, 54, 151) 35%, rgb(220, 220, 220) 65%);
+  background-image: linear-gradient(150deg, #000a16 35%, #a6bbd3 65%);
 }
 .work-section.active .bg-main2 {
-  background-image: linear-gradient(150deg, rgb(122, 236, 156) 35%, #9ad1f7 65%);
+  background-image: linear-gradient(150deg, rgb(142, 209, 241) 35%, #ddd 65%);
 }
 .work-section.active .bg-main3 {
-  background-image: linear-gradient(150deg, rgb(76, 161, 235) 35%, rgb(167, 167, 167) 65%);
+  background-image: linear-gradient(150deg, #0199f3 35%, #c7e1f9 65%);
 }
 .work-section.active .bg-main4 {
-  background-image: linear-gradient(150deg, rgb(240, 142, 142) 35%, rgb(133, 128, 128) 65%);
+  background-image: linear-gradient(150deg, #0272bc 35%, #f68e56 65%);
 }
 .work-section.active .bg-main5 {
   background-image: linear-gradient(150deg, rgb(223, 170, 188) 35%, rgb(220, 220, 220) 65%);
 }
 .work-section.active .bg-main6 {
-  background-image: linear-gradient(150deg, rgb(252, 209, 160) 35%, rgb(252, 251, 209) 65%);
+  background-image: linear-gradient(150deg, rgb(252, 209, 160) 35%, #fff 65%);
 }
 .work-section.active .bg {
   opacity: 0.6;
