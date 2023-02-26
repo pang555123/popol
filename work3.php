@@ -26,23 +26,23 @@
         <ul>
           <li>
             <span>TYPE</span>
-            <span>내용</span>
+            <span>NodeJS</span>
           </li>
           <li>
-            <span>PAGE</span>
-            <span>내용</span>
+            <span>Period</span>
+            <span>5주</span>
           </li>
           <li>
             <span>TOOL</span>
-            <span>내용</span>
+            <span>html5, scss, es6 , jsx</span>
           </li>
           <li>
-            <span>PROCESS</span>
-            <span>내용</span>
+            <span>Concept</span>
+            <span>댄스, 청량함</span>
           </li>
           <li>
             <span>참여도</span>
-            <span>내용</span>
+            <span>30%</span>
           </li>
         </ul>
         <div class="link">

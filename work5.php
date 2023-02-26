@@ -26,23 +26,23 @@
         <ul>
           <li>
             <span>TYPE</span>
-            <span>내용</span>
+            <span>XAMPP</span>
           </li>
           <li>
-            <span>PAGE</span>
-            <span>내용</span>
+            <span>Period</span>
+            <span>5주</span>
           </li>
           <li>
             <span>TOOL</span>
-            <span>내용</span>
+            <span>php, html, jquery, css</span>
           </li>
           <li>
-            <span>PROCESS</span>
-            <span>내용</span>
+            <span>Concept</span>
+            <span>반응형,모션그래픽</span>
           </li>
           <li>
             <span>참여도</span>
-            <span>내용</span>
+            <span>30%</span>
           </li>
         </ul>
         <div class="link">

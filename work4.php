@@ -26,23 +26,23 @@
         <ul>
           <li>
             <span>TYPE</span>
-            <span>내용</span>
+            <span>Wordpress</span>
           </li>
           <li>
-            <span>PAGE</span>
-            <span>내용</span>
+            <span>Period</span>
+            <span>5주</span>
           </li>
           <li>
             <span>TOOL</span>
-            <span>내용</span>
+            <span>php,html,scss,jquery</span>
           </li>
           <li>
-            <span>PROCESS</span>
-            <span>내용</span>
+            <span>Concept</span>
+            <span>기업, 모던함</span>
           </li>
           <li>
             <span>참여도</span>
-            <span>내용</span>
+            <span>30%</span>
           </li>
         </ul>
         <div class="link">

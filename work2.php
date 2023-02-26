@@ -26,23 +26,23 @@
         <ul>
           <li>
             <span>TYPE</span>
-            <span>내용</span>
+            <span>ReactApp</span>
           </li>
           <li>
-            <span>PAGE</span>
-            <span>내용</span>
+            <span>Period</span>
+            <span>2주</span>
           </li>
           <li>
             <span>TOOL</span>
-            <span>내용</span>
+            <span>html, jsx, scss, es6</span>
           </li>
           <li>
-            <span>PROCESS</span>
-            <span>내용</span>
+            <span>Concept</span>
+            <span>날씨, 예보</span>
           </li>
           <li>
             <span>참여도</span>
-            <span>내용</span>
+            <span>30%</span>
           </li>
         </ul>
         <div class="link">

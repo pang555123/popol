@@ -29,16 +29,16 @@
             <span>FullpageWeb</span>
           </li>
           <li>
-            <span>PAGE</span>
-            <span>Main page</span>
+            <span>Period</span>
+            <span>4주</span>
           </li>
           <li>
             <span>TOOL</span>
             <span>PHP, HTML, CSS, JS</span>
           </li>
           <li>
-            <span>PROCESS</span>
-            <span>내용</span>
+            <span>Concept</span>
+            <span>반응형, 문화</span>
           </li>
           <li>
             <span>참여도</span>
