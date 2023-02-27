@@ -48,8 +48,44 @@
         <div class="link">
           <a href="#">Planning</a>
           <a href="http://pass214900.dothome.co.kr/서야궁" target="_blank">Website</a>
+          <!-- 각자 포폴 링크 -->
         </div>
       </div><!-- mockup-desc -->
     </div><!-- work-contents -->
   </div><!-- work1 -->
+  <div class="planning">
+  <div class="wrap">
+    <button>
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="main">
+      <div class="Overview">
+        <p class="title">Overview</p>
+      </div>
+      <div class="Style Guide">
+        <p class="title">Style Guide</p>
+        <p>Colors</p>
+        <p>Primary Colors</p>
+        <div>
+          red <br>
+          rgb 0 0 0<br>
+          hex 000000
+        </div>
+        <div>
+          red <br>
+          rgb 0 0 0<br>
+          hex 000000
+        </div>
+        <div>
+          red <br>
+          rgb 0 0 0<br>
+          hex 000000
+        </div>
+      </div>
+      <div class="Typography">
+       <p class="title">Typography</p>
+      </div>
+    </div>
+    </div>
+  </div>
 </section><!-- section-work1 -->

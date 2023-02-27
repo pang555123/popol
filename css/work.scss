@@ -280,6 +280,34 @@
       }
     } //bg
   } //active
+  .planning{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0 ; left: 0;
+    background-color: rgba(#000,0.7);
+    .wrap{
+      width: 80%;
+      height: 100%;
+      margin: 10% auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      button{
+        text-align: right;
+        color: #fff;
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+      }
+      .main{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        overflow-y: auto;
+      }
+    }
+  }
 } //section-work1
 
 @keyframes move {

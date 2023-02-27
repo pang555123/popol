@@ -302,6 +302,35 @@
     top: 53.5%;
   }
 }
+.work-section .planning {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.work-section .planning .wrap {
+  width: 80%;
+  height: 100%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.work-section .planning .wrap button {
+  text-align: right;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.work-section .planning .wrap .main {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow-y: auto;
+}
 
 @keyframes move {
   0% {
