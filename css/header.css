@@ -27,21 +27,21 @@ header .inner {
     justify-content: left;
   }
 }
+header .inner nav.menu {
+  display: flex;
+}
 @media screen and (max-width: 1000px) {
-  header .inner nav {
+  header .inner nav.menu {
     padding-left: 20px;
   }
 }
-header .inner nav ul {
-  display: flex;
-}
-header .inner nav ul li {
+header .inner nav.menu button i {
   padding: 0 20px;
   color: #fff;
   font-size: 1.1em;
 }
 @media screen and (max-width: 1000px) {
-  header .inner nav ul li {
+  header .inner nav.menu button i {
     padding: 0 5px;
     font-size: 0.9em;
   }

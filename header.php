@@ -44,24 +44,19 @@
           <img src="./img/header/logo.png" alt="">
         </a>
       </h1>
-      <nav>
-        <ul class="menu">
-          <li class="intro">
-            <a href="#">INTRO</a>
-          </li><!-- intro -->
-
-          <li class="about">
-            <a href="#">ABOUT</p>
-          </li><!-- about -->
-
-          <li class="work">
-            <a href="#">WORK</a>
-          </li><!-- project -->
-
-          <li class="contact">
-            <a href="#">CONTACT</a>
-          </li><!-- contact --> 
-        </ul><!-- menu -->
+      <nav class="menu">
+          <button class="intro scr-spy1" data-n="1">
+            <i>INTRO</i>
+          </button><!-- intro -->
+          <button class="about scr-spy2" data-n="2">
+            <i>ABOUT</i>
+          </button><!-- about -->
+          <button class="work scr-spy3" data-n="3">
+            <i>WORK</i>
+          </button><!-- project -->
+          <button class="contact scr-spy" data-n="9">
+            <i>CONTACT</i>
+          </button><!-- contact --> 
       </nav>
     </div>
   </header>
