@@ -25,7 +25,7 @@
         </div><!-- title -->
         <ul>
           <li>
-            <span>TYPE</span> 
+            <span>TYPE</span>
             <span>FullpageWeb</span>
           </li>
           <li>
@@ -54,38 +54,131 @@
     </div><!-- work-contents -->
   </div><!-- work1 -->
   <div class="planning">
-  <div class="wrap">
-    <button>
-      <i class="fa-solid fa-xmark"></i>
-    </button>
-    <div class="main">
-      <div class="Overview">
-        <p class="title">Overview</p>
-      </div>
-      <div class="Style Guide">
-        <p class="title">Style Guide</p>
-        <p>Colors</p>
-        <p>Primary Colors</p>
-        <div>
-          red <br>
-          rgb 0 0 0<br>
-          hex 000000
+    <div class="wrap">
+      <button>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="main">
+        <div class="Overview">
+          <p class="title">Overview</p>
+          <div class="contents text">
+            <p>
+              php환경의 멀티페이지 사이트 개발에 필요한 개발환경 구축 및 탬플릿 구조 설계방식을 학습하고
+              선호도가 높은 소개형 웹사이트(gd웹 선정작)를 레퍼런스로 참고하여
+              svg와 스크롤 모션구현을 통해 심미성과 시각적 흥미 요소를 추가하고
+              미디어 쿼리와 제이쿼리를 이용해 다양한 디바이스 환경 최적화 및 UX를 고려한 UI환경을
+              제공할 수 있는 반응형 웹사이트를 제작하는데 목적을 두었습니다. </p>
+          </div>
         </div>
-        <div>
-          red <br>
-          rgb 0 0 0<br>
-          hex 000000
+        <div class="Style Guide">
+          <p class="title">Style Guide</p>
+          <div class="contents color">
+            <p>Colors</p>
+            <div class="contents-wrap">
+              <p>Primary Colors</p>
+              <div class="pallete">
+                <div>
+                  red <br>
+                  rgb 0 0 0<br>
+                  hex 000000
+                </div>
+                <div>
+                  red <br>
+                  rgb 0 0 0<br>
+                  hex 000000
+                </div>
+                <div>
+                  red <br>
+                  rgb 0 0 0<br>
+                  hex 000000
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          red <br>
-          rgb 0 0 0<br>
-          hex 000000
+        <div class="Typography">
+          <p class="title">Typography</p>
+          <div class="contents-wrap">
+            <div class="font1">
+              <p>Noto Sans KR</p>
+              <div class="Noto-Sans1">
+                <div>
+                  Aa
+                </div>
+                <div>
+                  NOTO SANS KR Bold
+                  가나다라마바사아자차카타파하
+                  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                  abcdefghijklmnopqrstuvwxyz
+                  0123456789
+                </div>
+              </div>
+              <div class="Noto-Sans2">
+                <div>
+                  Aa
+                </div>
+                <div>
+                  NOTO SANS KR Bold
+                  가나다라마바사아자차카타파하
+                  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                  abcdefghijklmnopqrstuvwxyz
+                  0123456789
+                </div>
+              </div>
+              <div class="Noto-Sans3">
+                <div>
+                  Aa
+                </div>
+                <div>
+                  NOTO SANS KR Bold
+                  가나다라마바사아자차카타파하
+                  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                  abcdefghijklmnopqrstuvwxyz
+                  0123456789
+                </div>
+              </div>
+              <div class="font2">
+                <p>Noto Sans KR</p>
+                <div class="Noto-Sans1">
+                  <div>
+                    Aa
+                  </div>
+                  <div>
+                    NOTO SANS KR Bold
+                    가나다라마바사아자차카타파하
+                    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                    abcdefghijklmnopqrstuvwxyz
+                    0123456789
+                  </div>
+                </div>
+                <div class="Noto-Sans2">
+                  <div>
+                    Aa
+                  </div>
+                  <div>
+                    NOTO SANS KR Bold
+                    가나다라마바사아자차카타파하
+                    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                    abcdefghijklmnopqrstuvwxyz
+                    0123456789
+                  </div>
+                </div>
+                <div class="Noto-Sans3">
+                  <div>
+                    Aa
+                  </div>
+                  <div>
+                    NOTO SANS KR Bold
+                    가나다라마바사아자차카타파하
+                    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                    abcdefghijklmnopqrstuvwxyz
+                    0123456789
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="Typography">
-       <p class="title">Typography</p>
       </div>
     </div>
-    </div>
-  </div>
 </section><!-- section-work1 -->
