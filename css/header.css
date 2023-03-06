@@ -22,11 +22,6 @@ header .inner {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 1000px) {
-  header .inner {
-    justify-content: left;
-  }
-}
 header .inner nav.menu {
   display: flex;
 }

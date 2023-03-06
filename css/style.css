@@ -34,8 +34,46 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "EBS";
+  src: url("../font/EBSL.woff") format("woff");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "EBS";
+  src: url("../font/EBSR.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EBS";
+  src: url("../font/EBSB.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "namsan";
+  src: url("../font/SeoulNamsanL.woff") format("woff");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "namsan";
+  src: url("../font/SeoulNamsanM.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "namsan";
+  src: url("../font/SeoulNamsanEB.woff") format("woff");
+  font-weight: bold;
+}
 .nexon {
   font-family: "NEXON Lv1 Gothic OTF";
+}
+
+.ebs {
+  font-family: "EBS";
+}
+
+.namsan {
+  font-family: "namsan";
 }
 
 :root {
