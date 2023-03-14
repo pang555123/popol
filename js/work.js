@@ -19,26 +19,10 @@ $(function () {
       fnstyle();
     });
 
-    function nonscr() {
-      $('.body').on('scroll touchmove mousewheel', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      });
-    }
-    function scr(){
-      $('.body').off('scroll touchmove mousewheel')
-    }
   $(`.link button`).click(function(e){
-    e.preventDefault();
-    $(`body`).addClass('non-scroll')
-    $('.planning').fadeIn(300);
-    nonscr()
+    $(`.work${n}-section .planning`).fadeIn(300);
   })
   $(`.planning .wrap button`).click(function(e){
-    e.preventDefault();
-    $(`body`).removeClass('non-scroll')
-    $('.planning').fadeOut(100);
-    scr()
+    $('.planning').fadeOut(300);
   })
 }); //ready

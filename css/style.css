@@ -76,6 +76,10 @@ body {
   font-family: "namsan";
 }
 
+.mont {
+  font-family: "Montserrat";
+}
+
 :root {
   --main-color:#b5a4ea;
   --sub-color:#0077c0;

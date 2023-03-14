@@ -421,18 +421,26 @@ body{
                           opacity: 0.8;
                         }
                       }
-                      &:nth-child(1){
+                      &.dark-navy{
                         background-color: #000a16;
                       }
-                      &:nth-child(2){
+                      &.navy{
                         background-color: #203e5f;
                       }
-                      &:nth-child(3){
+                      &.yellow{
                         background-color:#ffcc00 ;
                       }
-                      &:nth-child(4){
-                        //color: #000;
+                      &.light-yellow{
                         background-color: #fee5b1;
+                      }
+                      &.sky{
+                        background-color: #8ed1f1;
+                      }
+                      &.dark-blue{
+                        background-color: #3a6d81;
+                      }
+                      &.blue{
+                        background-color: #4e8cc2;
                       }
                     }
                   }
@@ -475,7 +483,7 @@ body{
                     font-weight: normal;
                   }
                   .regular{
-                    font-weight: lighter;
+                    font-weight: 300;
                   }
                   .category{
                     display: flex;

@@ -46,7 +46,7 @@
           </li>
         </ul>
         <div class="link">
-          <button>Planning</button>
+          <button data-n="1">Planning</button>
           <a href="http://pass214900.dothome.co.kr/서야궁" target="_blank">Website</a>
           <!-- 각자 포폴 링크 -->
         </div>
@@ -77,24 +77,24 @@
             <div class="contents-wrap">
               <p>Primary Colors</p>
               <div class="pallete">
-                <div>
+                <div class="dark-navy">
                   <em class="color">dark navy</em>
-                  <p class="rgb">RGB <b>0 0 0</b></p>
+                  <p class="rgb">RGB <b>0 10 22</b></p>
                   <p class="hex">HEX <b>000a16</b></p>
                 </div>
-                <div>
+                <div class="navy">
                   <em class="color">navy</em>
-                  <p class="rgb">RGB <b>0 0 0</b></p>
+                  <p class="rgb">RGB <b>32 62 95</b></p>
                   <p class="hex">HEX <b>203e5f</b></p>
                 </div>
-                <div>
+                <div class="yellow">
                   <em class="color">yellow</em>
-                  <p class="rgb">RGB <b>0 0 0</b></p>
+                  <p class="rgb">RGB <b>255 204 0</b></p>
                   <p class="hex">HEX <b>ffcc00</b></p>
                 </div>
-                <div>
+                <div class="light-yellow">
                   <em class="color">light yellow</em>
-                  <p class="rgb">RGB <b>0 0 0</b></p>
+                  <p class="rgb">RGB <b>254 229 177</b></p>
                   <p class="hex">HEX <b>fee5b1</b></p>
                 </div>
               </div>
@@ -105,8 +105,8 @@
           <p class="title">Typography</p>
         </div>
         <script>
-          FontArr.forEach(function(v) {
-            $(`.typography`).append(`
+          FontArr1.forEach(function(v) {
+            $(`.work1-section .typography`).append(`
               <div class="contents-wrap">
                 <p>${v.name1}</p>
                 <div class="font ${v.name2}">
@@ -137,4 +137,6 @@
           }) //fontarr
         </script>
       </div>
+    </div>
+  </div>
 </section><!-- section-work1 -->

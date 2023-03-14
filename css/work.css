@@ -444,17 +444,26 @@ body.non-scroll .work-section .planning .wrap .main .style-guide .contents .cont
   font-weight: 400;
   opacity: 0.8;
 }
-body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div:nth-child(1) {
+body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div.dark-navy {
   background-color: #000a16;
 }
-body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div:nth-child(2) {
+body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div.navy {
   background-color: #203e5f;
 }
-body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div:nth-child(3) {
+body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div.yellow {
   background-color: #ffcc00;
 }
-body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div:nth-child(4) {
+body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div.light-yellow {
   background-color: #fee5b1;
+}
+body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div.sky {
+  background-color: #8ed1f1;
+}
+body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div.dark-blue {
+  background-color: #3a6d81;
+}
+body.non-scroll .work-section .planning .wrap .main .style-guide .contents .contents-wrap .pallete div.blue {
+  background-color: #4e8cc2;
 }
 body.non-scroll .work-section .planning .wrap .main .typography {
   display: flex;
@@ -497,7 +506,7 @@ body.non-scroll .work-section .planning .wrap .main .typography .contents-wrap .
   font-weight: normal;
 }
 body.non-scroll .work-section .planning .wrap .main .typography .contents-wrap .font .regular {
-  font-weight: lighter;
+  font-weight: 300;
 }
 body.non-scroll .work-section .planning .wrap .main .typography .contents-wrap .font .category {
   display: flex;
