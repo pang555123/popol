@@ -80,6 +80,10 @@ body {
   font-family: "Montserrat";
 }
 
+.noto {
+  font-family: "Noto Sans KR";
+}
+
 :root {
   --main-color:#b5a4ea;
   --sub-color:#0077c0;

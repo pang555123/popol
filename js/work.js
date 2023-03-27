@@ -20,9 +20,12 @@ $(function () {
     });
 
   $(`.link button`).click(function(e){
-    $(`.work${n}-section .planning`).fadeIn(300);
+    var n = $(this).attr('data-n')
+    $(`.work${n}-section .planning`).addClass('active')
+    $('body').css({overflow:'hidden'})
   })
   $(`.planning .wrap button`).click(function(e){
-    $('.planning').fadeOut(300);
+    $('.planning').removeClass('active');
+    
   })
 }); //ready

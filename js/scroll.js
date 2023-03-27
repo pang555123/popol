@@ -1,7 +1,7 @@
 $(function () {
   //사용하지 않는 내용 삭제 
   /* 섹션별 휠이벤트 */
-  var isWheel = true;
+  window.isWheel = true;
   $(".scr-section").bind("mousewheel", function (e) {
     if (!isWheel) return false;
     isWheel = false;
@@ -32,7 +32,7 @@ $(function () {
   $('.menu button').click(function () {
     var target = $(this).attr('data-n')
     //스크롤이동명령어
-    $('body,html').stop().animate({ 'scrollTop': $('.scr-section' + target+ '-scr').offset().top })
+    $('body,html').stop().animate({ scrollTop: $('.scr-section' + target+ '-scr').offset().top })
     //active
     $('.scr-section'+target).addClass('active')
   })//click
